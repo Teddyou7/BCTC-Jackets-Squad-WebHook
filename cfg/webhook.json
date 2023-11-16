@@ -1,0 +1,52 @@
+[
+  {
+    "id": "AverageGameDuration",
+    "execute-command": "PathWaitingForCompletion/bin/shell/AverageGameDuration.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
+  },
+  {
+    "id": "TeamDuration",
+    "execute-command": "PathWaitingForCompletion/bin/shell/TeamDuration.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
+  }
+]
