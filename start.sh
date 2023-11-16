@@ -15,6 +15,17 @@ chmod +x ${WBHKHOME}/start.sh
 chmod +x ${WBHKHOME}/webhook
 chmod +x ${WBHKHOME}/cfg/*
 
+#创建路径
+mkdir -p ${WBHKHOME}/logs/RconLog
+mkdir -p ${WBHKHOME}/logs/user
+mkdir -p ${WBHKHOME}/logs/webhook
+mkdir -p ${WBHKHOME}/date/sign
+mkdir -p ${WBHKHOME}/date/tmp/AverageGameDuration
+mkdir -p ${WBHKHOME}/date/tmp/RconQueryCache
+mkdir -p ${WBHKHOME}/date/tmp/SteamDuration
+mkdir -p ${WBHKHOME}/date/txt
+mkdir -p ${WBHKHOME}/date/user
+
 #验证SteamAPI是否可用。
 steamid='76561198000000000'
 if [ $SteamApiMODE -eq 0 ];then
