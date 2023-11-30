@@ -1,0 +1,24 @@
+
+BattleMetrics - Trigger
+
+-Trigger Type
+--Player Message
+
+-Conditions
+--[OR] When any of the conditions are met.
+---Message - Contains (Case-insensitive) - 游戏时长
+---Message - Contains (Case-insensitive) - yxsc
+
+-Actions
+--Webhook[Add Action]
+
+-Webhook
+--URL
+http://127.0.0.1:9330/hooks/AverageGameDuration
+--Body
+{
+  "msgtype": "val",
+  "text":{
+  "content":"{{player.steamID}}%%{{player.name}}%%{{player.sessionDuration}}%%{{player.server.timePlayed}}%%{{player.org.timePlayed}}%%1" 
+ }
+}

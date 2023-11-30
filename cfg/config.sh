@@ -5,8 +5,8 @@
 #正确使用此包需要配置BattleMetrics的触发器！由触发器决定脚本调用，功能脚本注释中将会提示传参格式，或使用后续建设的文档
 #
 #冲锋号社区 - 战术小队 - 冲锋衣插件辅助系统
-#Version 0.1.117
-#2023/10/31 13:23
+#Version 0.1.133
+#2023/11/30 23:29
 #Come from: -冲锋号-Teddyou
 #参数设置
 
@@ -32,7 +32,7 @@ RconPort="21114"
 RconPasswd="XXXXXX"
 
 #WebHook启动端口
-WebHookPort='9300'
+WebHookPort='9330'
 
 #组织标识
 Org="冲锋号社区"

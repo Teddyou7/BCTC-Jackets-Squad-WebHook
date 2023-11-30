@@ -41,12 +41,12 @@ fi
 
 #主程序启动
 cd ${WBHKHOME}
-kill -9 `ps -ef|grep ${WBHKHOME}/webhook |grep -v grep|awk '{print $2}'`
+kill -9 `ps -ef|grep ${WBHKHOME}/webhook |grep -v grep|awk '{print $2}'` &> /dev/null 
 mv ${WBHKHOME}/log ${WBHKHOME}/logs/webhook/`date +"%Y%m%d%H%M%S"`.log
 nohup ${WBHKHOME}/webhook -port ${WebHookPort} -hotreload -hooks ${WBHKHOME}/cfg/webhook.json -verbose >> ${WBHKHOME}/log &
 
 #其他启动项目
-kill -9 `ps -ef|grep ${WBHKHOME}/bin/shell/additional/TimedSchedule.sh |grep -v grep|awk '{print $2}'`
+kill -9 `ps -ef|grep ${WBHKHOME}/bin/shell/additional/TimedSchedule.sh |grep -v grep|awk '{print $2}'` &> /dev/null 
 nohup ${WBHKHOME}/bin/shell/additional/TimedSchedule.sh &> /dev/null &
 
 echo "BCTC-Jackets Restart!"

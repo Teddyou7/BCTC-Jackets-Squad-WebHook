@@ -48,5 +48,31 @@
         }
       }
     }
+  },
+  {
+    "id": "SteamStatisticsDuration",
+    "execute-command": "PathWaitingForCompletion/bin/shell/SteamStatisticsDuration.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
   }
+
 ]
