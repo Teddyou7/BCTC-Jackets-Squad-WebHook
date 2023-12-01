@@ -22,10 +22,13 @@ Psswd: (未设置密码，留空回车即可)
 
 ## 已完成开发的功能
 * AverageGameDuration.txt - 平均时长查询功能
+
 ![平均时长查询功能](https://z1.ax1x.com/2023/12/01/pirOCE6.jpg)
 * TeamDuration.sh - 小队员时长查询功能
+
 ![小队员时长查询功能](https://z1.ax1x.com/2023/12/01/pirOEgH.jpg)
 * SteamStatisticsDuration - Steam统计时长查询
+
 ![Steam统计时长查询](https://z1.ax1x.com/2023/12/01/pirOA8e.jpg)
 
 ## 注意项
