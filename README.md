@@ -32,6 +32,23 @@ Psswd: (未设置密码，留空回车即可)
 
 ![Steam统计时长查询](https://z1.ax1x.com/2023/12/01/pirOEgH.jpg)
 
+* CreatSquadBroadcast - 小队创建播报
+
+![小队创建播报](https://z1.ax1x.com/2023/12/05/pi61Eb4.png)
+
+小队创建播报支持两种模式，需要在 ./cfg/config.sh 中修改模式和参数。
+```
+#小队创建广播模式，此功能关联小队创建时间查询
+# 0=不广播 1=全部广播 2=不符合指定时长广播（忽略steam时长不可查）
+CreatSquad_BroadcastMODE=2
+#指定时长（分钟）
+SLSteamDuration=6000
+```
+
+* CreatSquadTime - 小队创建时间查询
+
+![小队创建时间查询](https://z1.ax1x.com/2023/12/05/pi611KO.jpg)
+
 ## 注意项
 * 本项目随时更新，请及时更新！包括./cfg/config.sh文件，也可能存在新增配置项目，但是在更新过程中，会放入一些开发到一半的内容，但是一些可配置项目是开发调测完成的内容。
 * 本项目严重依赖BattleMetrics的WebHook进行数据处理，请阅读BattleMetrics-Config中的帮助信息Help.txt进行配置
