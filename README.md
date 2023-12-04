@@ -47,6 +47,8 @@ SLSteamDuration=6000
 
 * CreatSquadTime - 小队创建时间查询
 
+此功能启用需要正确配置CreatSquadBroadcast功能，以确保本地能正确生成建队信息的缓存，否则此功能将会出现错误！
+
 ![小队创建时间查询](https://z1.ax1x.com/2023/12/05/pi611KO.jpg)
 
 ## 注意项
