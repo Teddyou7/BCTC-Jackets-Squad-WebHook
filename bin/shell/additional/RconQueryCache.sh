@@ -4,6 +4,11 @@
 #/usr/local/webhook/shell/tmp/RconQueryCache/test
 #DATE=`date +'%H%M%S.%N'`     /usr/local/webhook/shell/tmp/RconQueryCache/RCON.$DATE
 
+#用例
+#	DATE=`date +"%s"`
+#	FILE="${WBHKHOME}/date/tmp/RconQueryCache/CreatSquadBroadcast.$DATE"
+#	${WBHKHOME}/bin/shell/additional/RconQueryCache.sh ListPlayers $FILE $ServerID
+
 ServerID=$3
 CMD=$1
 PUTFILE=$2

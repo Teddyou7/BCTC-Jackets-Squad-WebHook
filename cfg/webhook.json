@@ -73,6 +73,56 @@
         }
       }
     }
+  },
+  {
+    "id": "CreatSquadBroadcast",
+    "execute-command": "PathWaitingForCompletion/bin/shell/CreatSquadBroadcast.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
+  },
+  {
+    "id": "CreatSquadTime",
+    "execute-command": "PathWaitingForCompletion/bin/shell/CreatSquadTime.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
   }
 
 ]

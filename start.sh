@@ -23,6 +23,7 @@ mkdir -p ${WBHKHOME}/date/sign
 mkdir -p ${WBHKHOME}/date/tmp/AverageGameDuration
 mkdir -p ${WBHKHOME}/date/tmp/RconQueryCache
 mkdir -p ${WBHKHOME}/date/tmp/SteamDuration
+mkdir -p ${WBHKHOME}/date/tmp/CreatSquadInfo
 mkdir -p ${WBHKHOME}/date/txt
 mkdir -p ${WBHKHOME}/date/user
 
@@ -52,4 +53,4 @@ nohup ${WBHKHOME}/bin/shell/additional/TimedSchedule.sh &> /dev/null &
 echo "BCTC-Jackets Restart!"
 echo "Support： support@bctc-squad.cn or QQgroup:703511605"
 echo "WebHook startup completed!"
-echo "Version 0.1.122-2023/10/31 20:20"
+echo "Version 0.1.135-2023/12/5 1:15"

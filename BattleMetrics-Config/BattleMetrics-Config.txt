@@ -8,4 +8,5 @@
 AverageGameDuration.txt - 平均时长查询功能
 TeamDuration.sh - 小队员时长查询功能
 SteamStatisticsDuration - Steam统计时长查询
-CrSqQueryDu - 小队创建播报
+CreatSquadBroadcast - 小队创建播报
+CreatSquadTime - 小队创建时间查询

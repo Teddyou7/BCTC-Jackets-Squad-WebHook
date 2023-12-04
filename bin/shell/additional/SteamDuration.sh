@@ -47,9 +47,10 @@ do
  #sleep 3
 done
 
-#判定是否为空，返回null
+#判定是否空,清理缓存，返回null
 if [ $QNU -eq 0 ];then
-    echo null
+	echo null
+	rm -f ${WBHKHOME}/date/tmp/SteamDuration/${steamid}
 	exit
 fi
 
