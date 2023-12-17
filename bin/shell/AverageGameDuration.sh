@@ -1,5 +1,7 @@
 #!/bin/bash
 #AverageGameDuration.sh
+#BattleMetrics - Trigger - WebHook - URL
+#http://127.0.0.1:9000/hooks/AverageGameDuration
 #BattleMetrics - Trigger - WebHook - Body
 #{
 #  "msgtype": "val",
@@ -27,8 +29,8 @@ FILE="${WBHKHOME}/date/tmp/RconQueryCache/TeamDuration.$DATE"
 
 ${WBHKHOME}/bin/shell/additional/RconQueryCache.sh ListPlayers $FILE $ServerID
 
-PLAYER641=(`cat $FILE|grep 'Squad ID'|grep 'Team ID: 1'|awk '{print $5}'`)
-PLAYER642=(`cat $FILE|grep 'Squad ID'|grep 'Team ID: 2'|awk '{print $5}'`)
+PLAYER641=(`cat $FILE|grep 'Squad ID'|grep 'Team ID: 1'|awk '{print $9}'`)
+PLAYER642=(`cat $FILE|grep 'Squad ID'|grep 'Team ID: 2'|awk '{print $9}'`)
 
 PLAYERSUM1=`echo ${#PLAYER641[@]}`
 if [ "$PLAYERSUM1" -eq 0 ];then

@@ -1,0 +1,10 @@
+{
+  "port": 27088,
+  "paths": [
+    {
+      "url": "/AdminInfo",
+      "file": "PathWaitingForCompletion/date/user/Admins.cfg"
+    }
+  ]
+}
+

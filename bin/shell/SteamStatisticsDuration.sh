@@ -1,5 +1,7 @@
 #!/bin/bash
 #SteamStatisticsDuration.sh
+#BattleMetrics - Trigger - WebHook - URL
+#http://127.0.0.1:9000/hooks/SteamStatisticsDuration
 #BattleMetrics - Trigger - WebHook - Body
 #{
 #  "msgtype": "val",

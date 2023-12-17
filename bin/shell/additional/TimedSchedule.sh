@@ -8,7 +8,8 @@ do
 	#RconQueryCache查询缓存
 	find ${WBHKHOME}/date/tmp/RconQueryCache/ -type f -mmin +60 -delete
 	find ${WBHKHOME}/logs/RconLog/ -type f -mmin +60 -delete
+	find ${WBHKHOME}/date/txt/PlayerGameID/ -type f -mmin +60 -delete
 	
-	find ${WBHKHOME}/date/tmp/CreatSquadInfo/ -type f -mmin +60 -delete
+	find ${WBHKHOME}/date/tmp/CreatSquadInfo/ -type f -mmin +120 -delete
 	sleep 120
 done

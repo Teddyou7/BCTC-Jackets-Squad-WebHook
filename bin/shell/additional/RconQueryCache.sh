@@ -21,7 +21,7 @@ RCON_CMD(){
 	while true
 	do
 		RCONCM=(`ps -ef|grep ${WBHKHOME}/bin/rcon|grep -v grep|awk '{print $8}'`)
-		RCOMSF=`find grep ${WBHKHOME}/bin/rcon/ | grep [0-9]$ |shuf -n 1`
+		RCOMSF=`find ${WBHKHOME}/bin/rcon/ | grep [0-9]$ |shuf -n 1`
 		if [ -z $RCONCM ]; then
 			break
 		fi 

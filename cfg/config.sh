@@ -43,22 +43,32 @@ SteamDurationTmpMin=60
 #小队创建广播模式，此功能关联小队创建时间查询
 # 0=不广播 1=全部广播 2=不符合指定时长广播
 CreatSquad_BroadcastMODE=2
-
-#指定时长（分钟）
+#小队创建广播模式3 指定时长（分钟）
 SLSteamDuration=6000
 
-#增加预留位API接口,如果你使用的插件涉及到预留位的增删，则你应该设置此处。
-#此功能需要由您的供应商提供，务必使用http请求，请求方法类似于：http://api.server.com/ReservedAdd?steamid=760000000
-#直接在末尾添加steamID就可使用的请求。
-ReservedAddApi="http://api.server.com/add?"
+#签到普通用户在线时间限制（秒）
+SignSessionDurationMin=1200
 
-#删除预留位API接口,如果你使用的插件涉及到预留位的增删，则你应该设置此处。
-#此功能需要由您的供应商提供，务必使用http请求，请求类似于：http://api.server.com/ReservedDel?steamid=760000000
-#直接在末尾添加steamID就可使用的请求。
-ReservedDelApi="http://api.server.com/del?"
+#远程RemoteAdminsURL默认为http://127.0.0.1:27088/AdminInfo
+#修改此处路径需要同步修改${WBHKHOME}/cfg/http_file_server.json文件！
+RemoteAdminList="${WBHKHOME}/date/user/Admins.cfg"
+
+#预留位计时系统用户信息存放路径
+ReservedUserInfo="${WBHKHOME}/date/user/ReservedUserInfo.ini"
+#签到特权计时系统用户信息存放路径
+SignVIPUserInfo="${WBHKHOME}/date/user/SignVIPUserInfo.ini"
+#积分系统用户信息存放路径
+PointsUserInfo="${WBHKHOME}/date/user/PointsUserInfo.ini"
+
+#${WBHKHOME}/bin/shell/additional/PlayerGameID.sh $steamid
+#${WBHKHOME}/bin/shell/additional/RconQueryCache.sh ListPlayers $FILE_TMP $ServerID
+#${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh 
+
+#用户信息变动记录路径
+UserOperateLog="${WBHKHOME}/logs/user/"
 
 #预留位CDK激活码存放路径
-#注意CDK格式，BCTC-RESERVED-2592000-XXXXXX-XXXXXX-XXXXXXX
+#注意CDK格式，BCTC-RESERVE-2592000-XXXXXX-XXXXXX-XXXXXXX
 #以-分割，第一位为定制化内容，可以是你的组织简写，第三位为激活的时间戳，后方是随机的加密字符。
 File_ReservedCDKFilePath="${WBHKHOME}/date/cdkey/ReservedCDK"
 
@@ -71,6 +81,8 @@ File_PointsCDKFilePath="${WBHKHOME}/date/cdkey/PointsCDK"
 #注意CDK格式，BCTC-SIGNVIP-2592000-XXXXXX-XXXXXX-XXXXXXX
 #以-分割，第一位为定制化内容，可以是你的组织简写，第三位为激活的时间戳，后方是随机的加密字符。
 File_SignVIPCDKFilePath="${WBHKHOME}/date/cdkey/SignVIPCDK"
+
+UserSignLogFile="${WBHKHOME}/date/SignIn/"
 
 #调用输入ServerID=serverID，定义变量CMDSH，一次性管理多实例配置；设置此多实例可无视上方配置的登录信息进行设置。
 #$ServerID是服务器编号，一般以#1 #2 #3等区分，需要修改脚本自行处理此参数。

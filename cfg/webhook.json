@@ -123,6 +123,81 @@
         }
       }
     }
+  },
+  {
+    "id": "SignIn",
+    "execute-command": "PathWaitingForCompletion/bin/shell/SignIn.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
+  },
+  {
+    "id": "CdkyeActivation",
+    "execute-command": "PathWaitingForCompletion/bin/shell/CdkyeActivation.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
+  },
+  {
+    "id": "UserInfo",
+    "execute-command": "PathWaitingForCompletion/bin/shell/UserInfo.sh",
+    "command-working-directory": "/",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "payload",
+        "name": "text.content"
+      }
+    ],
+    "trigger-rule":
+    {
+          "match":
+      {
+        "type": "value",
+        "value": "val",
+        "parameter":
+        {
+          "source": "payload",
+          "name": "msgtype"
+        }
+      }
+    }
   }
 
 ]

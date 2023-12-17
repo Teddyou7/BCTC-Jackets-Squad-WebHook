@@ -1,7 +1,20 @@
 #!/bin/bash
 #TeamDuration.sh
+#BattleMetrics - Trigger - Webhook - Action Condition
+#[AND] When all conditions are met.
+#-Is Squad Leader - Equal (=) - True
+#-[OR] When any of the conditions are met.
+#--Message - Contains (Case-insensitive) - [触发关键词]
+#BattleMetrics - Trigger - WebHook - URL
+#http://127.0.0.1:9000/hooks/TeamDuration
+#BattleMetrics - Trigger - WebHook - Body
+#{
+#  "msgtype": "val",
+#  "text":{
+#  "content":"{{player.name}}%%{{player.steamID}}%%1" 
+# }
+#}
 #小队时长查询接口，队长调用，返回自己小队所有人的时长信息。
-#  "content":"{{player.name}}%%{{player.steamID}}%%{{server.name}}"
 
 #name
 player_name=`echo $1|awk -F '%%' '{print $1}'`
@@ -22,8 +35,8 @@ userid=`cat $FILE|grep $steamID|awk '{print $2}'`
 teamid=`cat $FILE|grep $steamID|awk -F "Team ID: " '{print $2}'|awk '{print $1}'`
 squadid=`cat $FILE|grep $steamID|awk -F "Squad ID: " '{print $2}'|awk '{print $1}'`
 
-users=(`cat $FILE|grep -E "\| Team ID: $teamid \| Squad ID: $squadid \|" |grep -v $steamID |awk '{print $5}'`)
-usernames=(`cat $FILE|grep -E "\| Team ID: $teamid \| Squad ID: $squadid \|" |grep -v $steamID |awk -F "Name: " '{print $2}'|awk '{print $1}'`)
+users=(`cat $FILE|grep -E "\| Team ID: $teamid \| Squad ID: $squadid \|" |grep -v $steamID |awk '{print $9}'`)
+usernames=(`cat $FILE|grep -E "\| Team ID: $teamid \| Squad ID: $squadid \|" |grep -v $steamID |awk -F "Name: " '{print $2}'|awk -F \|\  '{print $1}'`)
 
 for I in ${!users[@]}
 do

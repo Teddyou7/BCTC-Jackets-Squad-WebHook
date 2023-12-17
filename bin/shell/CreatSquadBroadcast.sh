@@ -1,5 +1,7 @@
 #!/bin/bash
 #CreatSquadBroadcast.sh
+#BattleMetrics - Trigger - WebHook - URL
+#http://127.0.0.1:9000/hooks/CreatSquadBroadcast
 #BattleMetrics - Trigger - WebHook - Body
 #{
 #  "msgtype": "val",
@@ -124,14 +126,18 @@ elif [ "$CreatSquad_BroadcastMODE" -eq 1 ]; then
 	fi
 elif [ "$CreatSquad_BroadcastMODE" -eq 2 ]; then
     # 处理 CreatSquad_BroadcastMODE 为 2 的逻辑
-    echo "CreatSquad_BroadcastMODE is 2."
 	steam_duration=`${WBHKHOME}/bin/shell/additional/SteamDuration.sh ${steamID}`
-	steam_duration_tmp=$(echo "scale=2;$steam_duration / 60"|bc)
-	steam_duration_output=$(printf "%.2f" $steam_duration_tmp)
-	if [ "$steam_duration" -lt "$SLSteamDuration" ]; then
-		$CMDSH AdminBroadcast [${beijing_time}][${player_teamID}-${player_squadID}]检查到“${player_name}”创建[${msg_squadName}]，Steam时长低于设定值，时长为${steam_duration_output}小时，请服务器管理员处理。
+	if [ "$steam_duration" == "null" ];then
+		exit
+	else
+		echo "CreatSquad_BroadcastMODE is 2."
+		steam_duration_tmp=$(echo "scale=2;$steam_duration / 60"|bc)
+		steam_duration_output=$(printf "%.2f" $steam_duration_tmp)
+		if [ "$steam_duration" -lt "$SLSteamDuration" ]; then
+			$CMDSH AdminBroadcast [${beijing_time}][${player_teamID}-${player_squadID}]检查到“${player_name}”创建[${msg_squadName}]，Steam时长低于设定值，时长为${steam_duration_output}小时，请服务器管理员处理。
+		fi
+		exit
 	fi
-	exit
 else
     # 默认情况，当 CreatSquad_BroadcastMODE 不匹配任何选项时的逻辑
     echo "Invalid CreatSquad_BroadcastMODE value. Config Err!!!"
