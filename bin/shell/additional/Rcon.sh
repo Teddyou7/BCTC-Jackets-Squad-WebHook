@@ -37,7 +37,7 @@ do
 	DATE=`date +'%H%M%S.%N'`
 	$RCOMSF $1 $2 $3 $4 $5 $6 $7 $8 $9 > ${WBHKHOME}/logs/RconLog/$DATE
 	Return=`cat ${WBHKHOME}/logs/RconLog/$DATE`
-	ERR=`echo $Return |grep "Illegal size" |grep -vE command\|Message\|broadcasted |wc -l`
+	ERR=`echo $Return |grep -E "Illegal size"\|Connection\|Authenticate |grep -vE command\|Message\|broadcasted |wc -l`
 	if [ $ERR -eq 0 ];then
 		echo "COUNTER=$COUNTER"
 		echo $Return

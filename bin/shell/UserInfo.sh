@@ -22,24 +22,28 @@ source $(echo $(cd `dirname $0`; pwd) | sed 's/bin\/shell//g')/cfg/config.sh
 
 PlayerID=$(${WBHKHOME}/bin/shell/additional/PlayerGameID.sh $steamID)
 
+COUNTER=0
 RESREVEIF=`cat $ReservedUserInfo | grep $steamID | wc -l`
 if [ "$RESREVEIF" -eq 1 ];then
 	AccountBalance=`cat $ReservedUserInfo |grep $steamID |awk -F \: '{print $2}'`
 	$CMDSH AdminWarnById $PlayerID 预留位到期时间：`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
-	sleep 1
+	COUNTER=$((COUNTER+1))
 fi
 
 POINTSIF=`cat $PointsUserInfo | grep $steamID | wc -l`
-if [ "$RESREVEIF" -eq 1 ];then
+if [ "$POINTSIF" -eq 1 ];then
 	AccountBalance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
-	$CMDSH AdminWarnById $PlayerID 积分余额：${AccountBalance}
-	sleep 1
+	$CMDSH AdminWarnById $PlayerID ${PointsName}余额：${AccountBalance}
+	COUNTER=$((COUNTER+1))
 fi
 
 SIGNVIPIF=`cat $SignVIPUserInfo | grep $steamID | wc -l`
-if [ "$RESREVEIF" -eq 1 ];then
+if [ "$SIGNVIPIF" -eq 1 ];then
 	AccountBalance=`cat $SignVIPUserInfo |grep $steamID |awk -F \: '{print $2}'`
 	$CMDSH AdminWarnById $PlayerID 签到特权到期时间：`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
-	sleep 1
+	COUNTER=$((COUNTER+1))
 fi
 
+if [ "$COUNTER" -eq 0 ];then
+	$CMDSH AdminWarnById $PlayerID 未能查询到您的相关信息。
+fi

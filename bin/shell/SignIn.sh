@@ -34,6 +34,11 @@ if [ $? -ne 0 ];then
   >> $UserSignLogFiles
 fi
 
+#判断签到模式
+if [ $SignMod -eq 0 ];then
+	exit
+fi
+
 process_signin() {
     local steamID=$1
     local INT=$2
@@ -42,18 +47,18 @@ process_signin() {
     local extra_points=$5
     local privilege_msg=$6
 
-    echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:通过每日签到获得${INT}积分" >> $UserOperateLog/${ServerID}
+    echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:通过每日签到获得${INT}积分" >> $UserOperateLog/${steamID}
     ${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "${INT}" "1"
 
     if [ "$privilege" -ne 0 ]; then
-        echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:特权签到${SignVipNumber}次，额外获得${extra_hours}小时预留位与${extra_points}积分。" >> $UserOperateLog/${ServerID}
+        echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:特权签到${SignVipNumber}次，额外获得${extra_hours}小时预留位与${extra_points}积分。" >> $UserOperateLog/${steamID}
         ${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "${extra_points}" "1"
         ${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$((extra_hours * 3600))" "2"
 		Balance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
-        $CMDSH AdminBroadcast $player_name，签到获得${INT}积分，${privilege_msg}；当前已特权签到${SignVipNumber}次，已有${Balance}积分。
+        $CMDSH AdminBroadcast $player_name，签到获得${INT}${PointsName}，${privilege_msg}；当前已特权签到${SignVipNumber}次，已有${Balance}${PointsName}。
     else
 		Balance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
-        $CMDSH AdminBroadcast $player_name，完成签到获得${INT}积分，您已签到${SignNumber}次，当前已有${Balance}积分。
+        $CMDSH AdminBroadcast $player_name，完成签到获得${INT}${PointsName}，您已签到${SignNumber}次，当前已有${Balance}${PointsName}。
     fi
 }
 
@@ -97,24 +102,39 @@ if [ "$players" -le 20 ];then
 	elif [ "$players" -gt 75 ];then
 	INT=`echo $[RANDOM%5+3]`
 fi
-
+#判断签到模式
+if [ $SignMod -eq 2 ];then
+	if [ $(cat ${WBHKHOME}/date/user/ReservedUserInfo.ini | grep $steamID | wc -l) -eq 0 ];then
+		$CMDSH AdminBroadcast $player_name，服务器已开启仅显预留位用户签到，您未满足签到条件。
+		exit
+	else
+		echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:通过每日签到获得${VIPSignRecharge}秒预留位" >> $UserOperateLog/${steamID}
+		${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$VIPSignRecharge" "2"
+		number=$(echo "scale=1; $VIPSignRecharge / 3600" | bc)
+		Balance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		AccountBalance=`cat $ReservedUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		$CMDSH AdminBroadcast $player_name，完成签到获得${number}小时预留位，您的最新到期时间：`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
+		echo "$steamID" >> $UserSignLogFiles
+		exit
+	fi
+fi
 #已签到标记
 echo "$steamID" >> $UserSignLogFiles
 #签到特权处理区
 # 签到特权处理区和普通用户签到处理区
 if [ "$SignVIP" -ne 0 ]; then
     if [ "$SignVipNumber" -ge 360 ]; then
-        process_signin "$steamID" "$INT" 1 48 48 "签到特权⑥额外获得48小时预留位与48积分"
+        process_signin "$steamID" "$INT" 1 48 48 "签到特权⑥额外获得48小时预留位与48${PointsName}"
     elif [ "$SignVipNumber" -ge 180 ]; then
-        process_signin "$steamID" "$INT" 1 48 30 "签到特权⑤额外获得48小时预留位与30积分"
+        process_signin "$steamID" "$INT" 1 48 30 "签到特权⑤额外获得48小时预留位与30${PointsName}"
     elif [ "$SignVipNumber" -ge 96 ]; then
-        process_signin "$steamID" "$INT" 1 48 24 "签到特权④额外获得48小时预留位与24积分"
+        process_signin "$steamID" "$INT" 1 48 24 "签到特权④额外获得48小时预留位与24${PointsName}"
     elif [ "$SignVipNumber" -ge 36 ]; then
-        process_signin "$steamID" "$INT" 1 42 18 "签到特权③额外获得42小时预留位与18积分"
+        process_signin "$steamID" "$INT" 1 42 18 "签到特权③额外获得42小时预留位与18${PointsName}"
     elif [ "$SignVipNumber" -ge 14 ]; then
-        process_signin "$steamID" "$INT" 1 36 12 "签到特权②额外获得36小时预留位与12积分"
+        process_signin "$steamID" "$INT" 1 36 12 "签到特权②额外获得36小时预留位与12${PointsName}"
     else
-        process_signin "$steamID" "$INT" 1 30 6 "签到特权①额外获得30小时预留位与6积分"
+        process_signin "$steamID" "$INT" 1 30 6 "签到特权①额外获得30小时预留位与6${PointsName}"
     fi
 else
     process_signin "$steamID" "$INT" 0 0 0 ""

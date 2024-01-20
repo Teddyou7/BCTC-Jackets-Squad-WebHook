@@ -30,8 +30,13 @@ DATE=`date +'%H%M%S.%N'`
 FILE="${WBHKHOME}/date/tmp/RconQueryCache/TeamDuration.$DATE"
 
 ${WBHKHOME}/bin/shell/additional/RconQueryCache.sh ListPlayers $FILE $ServerID
-
 userid=`cat $FILE|grep $steamID|awk '{print $2}'`
+LeaderIF=`cat $FILE|grep $steamID | grep "Is Leader: True" | wc -l`
+if [ "$LeaderIF" == "0" ]; then
+	$CMDSH AdminWarnById $userid 此命令只有小队长才能使用！
+	exit
+fi
+
 teamid=`cat $FILE|grep $steamID|awk -F "Team ID: " '{print $2}'|awk '{print $1}'`
 squadid=`cat $FILE|grep $steamID|awk -F "Squad ID: " '{print $2}'|awk '{print $1}'`
 

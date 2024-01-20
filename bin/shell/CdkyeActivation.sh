@@ -1,8 +1,6 @@
 #!/bin/bash
 #CdkyeActivation.sh
 #BattleMetrics - Trigger - Webhook - Action Condition
-#[AND] When all conditions are met.
-#-Is Squad Leader - Equal (=) - True
 #-[OR] When any of the conditions are met.
 #--Message - Contains (Regular Expression) - ^[A-Z0-9]+-RESREVE-[0-9]+-.*
 #--Message - Contains (Regular Expression) - ^[A-Z0-9]+-POINTS-[0-9]+-.*
@@ -46,7 +44,7 @@ do
                 ;;
             POINTS)
                 File_CDK="${WBHKHOME}/date/cdkey/PointsCDK"
-				ActivationProject="积分"
+				ActivationProject=$PointsName
 				Unit='分'
 				ActivationMode=1
                 ;;
@@ -82,15 +80,19 @@ if [ $CheckCDKChannel -eq 1 ] ;then
 fi
 
 #开始处理预留位
-sed -i "/${CdkeyInfo}/d" $File_ReservedCDKFilePath
 ${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$Value" "$ActivationMode"
 echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:成功激活CDK-${CdkeyInfo}-$ActivationProject" >> $UserOperateLog/$steamID
-AccountBalance=`cat $ReservedUserInfo |grep $steamID |awk -F \: '{print $2}'`
 
 if [ "$ActivationMode" -eq 1 ];then
-	$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Value}，当前余额为 ${Unit}
+		sed -i "/${CdkeyInfo}/d" $File_PointsCDKFilePath
+		AccountBalance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		$CMDSH AdminWarnById $PlayerID 成功激活${Value}${ActivationProject}，当前余额为${AccountBalance}${ActivationProject}
 	elif [ "$ActivationMode" -eq 2 ];then
-	$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
+		sed -i "/${CdkeyInfo}/d" $File_ReservedCDKFilePath
+		AccountBalance=`cat $ReservedUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
 	elif [ "$ActivationMode" -eq 3 ];then
-	$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
+		sed -i "/${CdkeyInfo}/d" $File_SignVIPCDKFilePath
+		AccountBalance=`cat $SignVIPUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
 fi

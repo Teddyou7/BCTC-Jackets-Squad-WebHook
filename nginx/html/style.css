@@ -1,0 +1,86 @@
+body {
+    background-image: url('https://s11.ax1x.com/2023/12/07/pigR7KP.jpg');
+	font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.footer-text {
+    font-style: italic;
+    font-weight: bold; /* 加粗 */
+    font-size: smaller;
+    color: #333; /* 文字颜色改为白色 */
+	margin-top: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);/*  文字投影 */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* 白色背景，80% 不透明度 */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-height: 90vh;  /* 最大高度设置为视口高度的90% */
+    overflow-y: auto;   /* 超出部分显示滚动条 */
+}
+
+.form-container {
+    width: 1000px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-bottom: 20px;  /* 增加行间距 */
+    /*background-color: #f9f9f9;  每个输入行的背景色 */
+	border-bottom: 1px dashed #333; /* 在每个输入区域下方添加一条细线 */
+}
+
+.h2, .row h2 {
+    font-size: 1.5em;
+    margin-top: 20px;  /* 增加标题上方间距 */
+    border-bottom: 1px solid #ccc; /* 标题下的分隔线 */
+    padding-bottom: 10px;
+}
+
+.col-label {
+    flex-basis: 50%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.col-input {
+    flex-basis: 50%;
+    padding-left: 10px;
+}
+
+.submit-row {
+    text-align: center;
+    padding-top: 20px;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	width: 300px; 
+}
+
+/* 调整按钮的外边距来居中 */
+.submit-row {
+    text-align: center;
+    padding-top: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+

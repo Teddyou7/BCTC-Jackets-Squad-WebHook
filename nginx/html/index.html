@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>冲锋衣插件配置面板</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="redEnvelopeForm" method="post" action="submitConfig.php" onsubmit="return validateForm()">
+                <h2>基础配置</h2>
+                <div class="row">
+                    <label class="col-label">服务器IP</label>
+                    <input type="text" class="col-input" name="ServerIP" id="ServerIP"><br>
+                </div>
+                <div class="row">
+                    <label class="col-label">Rcon 端口号</label>
+                    <input type="number" class="col-input" name="RconPort" id="RconPort"><br>
+                </div>
+                <div class="row">
+                    <label class="col-label">Rcon 密码</label>
+                    <input type="text" class="col-input" id="RconPasswd" name="RconPasswd">
+                </div>
+
+                <div class="row">
+                    <label class="col-label">组织标识</label>
+                    <input type="text" class="col-input" id="Org" name="Org">
+                </div>
+
+                <h2>积分配置</h2>
+
+                <div class="row">
+                    <label class="col-label">积分名称</label>
+                    <input type="text" class="col-input" name="PointsName" id="PointsName" >
+                </div>
+
+                <div class="row">
+                    <label class="col-label">积分兑换预留位最低值(单位：积分)</label>
+                    <input type="number" class="col-input" name="PointsActivationReservedLow" id="PointsActivationReservedLow" >
+                </div>
+                <div class="row">
+                    <label class="col-label">发福利最低发放限制(单位：积分)</label>
+                    <input type="number" class="col-input" name="GrantReservedWelfareLow" id="GrantReservedWelfareLow" >
+                </div>
+                <div class="row">
+                    <label class="col-label">积分兑换预留位比例（分：秒）<br>此处输入1分兑换多少秒<br>此参数也控制发福利和抢红包的兑换比例</label>
+                    <input type="number" class="col-input" name="PointsToReserved" id="PointsToReserved" >
+                </div>
+                <div class="row">
+                    <label class="col-label">用户签到模式<br>0=关闭此功能 1=任何人可签到 2=已有预留位用户可签到</label>
+                    <input type="number" class="col-input" name="SignMod" id="SignMod" >
+                </div>
+                <div class="row">
+                    <label class="col-label">预留位签到加时秒数（签到模式2生效）</label>
+                    <input type="number" class="col-input" name="VIPSignRecharge" id="VIPSignRecharge" >
+                </div>
+                <div class="row">
+                    <label class="col-label">签到在线时间限制（秒）</label>
+                    <input type="number" class="col-input" name="SignSessionDurationMin" id="SignSessionDurationMin" >
+                </div>
+
+                <h2>红包配置</h2>
+
+                <div class="row">
+                    <label class="col-label">是否开启发红包的功能<br>0=不开启 1=开启</label>
+                    <input type="number" class="col-input" name="HandOutRedEnvelopesStart" id="HandOutRedEnvelopesStart" >
+                </div>
+                <div class="row">
+                    <label class="col-label">发红包单个红包最低值(单位：积分)</label>
+                    <input type="number" class="col-input" name="HandOutRedEnvelopesLow" id="HandOutRedEnvelopesLow" >
+                </div>
+                <div class="row">
+                    <label class="col-label">抢得红包处理方式<br>1=直充预留位 2=直充积分</label>
+                    <input type="number" class="col-input" name="SnatchingRedEnvelopesMod" id="SnatchingRedEnvelopesMod" >
+                </div>
+                <div class="row">
+                    <label class="col-label">红包过期时间(分钟)</label>
+                    <input type="number" class="col-input" name="RedEnvelopesBecomeDue" id="RedEnvelopesBecomeDue" >
+                </div>
+                <div class="row">
+                    <label class="col-label">每次抢红包间隔时间(分钟)</label>
+                    <input type="number" class="col-input" name="RedEnvelopesCooldown" id="RedEnvelopesCooldown" >
+                </div>
+
+                <h2>喇叭喊话功能</h2>
+
+                <div class="row">
+                    <label class="col-label">小喇叭消耗积分</label>
+                    <input type="number" class="col-input" name="PlayerServerSpeakerPoints" id="PlayerServerSpeakerPoints" >
+                </div>
+                <div class="row">
+                    <label class="col-label">大喇叭消耗积分</label>
+                    <input type="number" class="col-input" name="PlayerGroupSpeakerPoints" id="PlayerGroupSpeakerPoints" >
+                </div>
+                <div class="row">
+                    <label class="col-label">是否上传大喇叭联动<br>1=是 0=否</label>
+                    <input type="number" class="col-input" name="PlayerGroupSpeakerIf" id="PlayerGroupSpeakerIf" >
+                </div>
+
+                <h2>牛子长度</h2>
+
+                <div class="row">
+                    <label class="col-label">是否开启牛子长度娱乐功能<br>不开启=0</label>
+                    <input type="number" class="col-input" name="NiuZiChangDuIf" id="NiuZiChangDuIf" >
+                </div>
+                <div class="row">
+                    <label class="col-label">牛子长度留存分钟数</label>
+                    <input type="number" class="col-input" name="NiuZiChangDuTimeTmp" id="NiuZiChangDuTimeTmp" >
+                </div>
+
+                <h2>气象广播</h2>
+
+                <div class="row">
+                    <label class="col-label">是否开启预留位IP定位气象播报<br>不开启=0</label>
+                    <input type="number" class="col-input" name="IfWeatherBroadcast" id="IfWeatherBroadcast" >
+                </div>
+                <div class="row">
+                    <label class="col-label">定位广播是否精确到地市<br>1=是</label>
+                    <input type="number" class="col-input" name="IfWeatherBroadcastCity" id="IfWeatherBroadcastCity" >
+                </div>
+                <div class="row">
+                    <label class="col-label">VIP名称</label>
+                    <input type="text" class="col-input" name="ServerVipNname" id="ServerVipNname" >
+                </div>
+                <div class="row">
+                    <label class="col-label">气象广播时的服务器名称</label>
+                    <input type="text" class="col-input" name="WeatherBroadcastServerNname" id="WeatherBroadcastServerNname" >
+                </div>
+
+                <h2>小队创建广播</h2>
+
+                <div class="row">
+                    <label class="col-label">小队创建广播模式<br>0=不广播 1=全部广播 2=不符合指定时长广播</label>
+                    <input type="number" class="col-input" name="CreatSquad_BroadcastMODE" id="CreatSquad_BroadcastMODE" >
+                </div>
+                <div class="row">
+                    <label class="col-label">模式3不符合指定时长广播阈值（分钟）</label>
+                    <input type="number" class="col-input" name="SLSteamDuration" id="SLSteamDuration" >
+                </div>
+
+                <h2>训练服功能项</h2>
+
+                <div class="row">
+                    <label class="col-label">开局跳过并解除所有限制<br>0=关</label>
+                    <input type="number" class="col-input" name="BCTC_TrainingMatchIf" id="BCTC_TrainingMatchIf" >
+                </div>
+                <div class="row">
+                    <label class="col-label">击杀检测及炮手位检查自动踢出<br>0=关</label>
+                    <input type="number" class="col-input" name="BCTC_TrainingActualDamageIf" id="BCTC_TrainingActualDamageIf" >
+                </div>
+                <div class="row">
+                    <label class="col-label">炮手位检查自动踢出<br>0=关</label>
+                    <input type="number" class="col-input" name="BCTC_TrainingTurretIf" id="BCTC_TrainingTurretIf" >
+                </div>
+                <div class="row">
+                    <label class="col-label">玩家身份自助切换地图<br>0=关</label>
+                    <input type="number" class="col-input" name="BCTC_TrainingChangeLayer" id="BCTC_TrainingChangeLayer" >
+                </div>
+                <div class="row">
+                    <label class="col-label">玩家身份自助切换地图冷却时间（每人）</label>
+                    <input type="number" class="col-input" name="BCTC_TrainingChangeLayerCDTime" id="BCTC_TrainingChangeLayerCDTime" >
+                </div>
+                <div class="row">
+                    <label class="col-label">结束时时间倍数控制<br>0=关<br>此功能在认证服务器不建议开启</label>
+                    <input type="number" class="col-input" name="BCTC_LogSquadGameEventsIf" id="BCTC_LogSquadGameEventsIf" >
+                </div>
+                <div class="row">
+                    <label class="col-label">对局结束时刻的时间倍数<br>可调整为0-20，如果调整为0会导致游戏暂停！<br>直到管理员重新刷入新的AdminSlomo倍数</label>
+                    <input type="number" class="col-input" name="EndMatchTimeMultiplier" id="EndMatchTimeMultiplier" >
+                </div>
+
+                <!-- 根据需要添加更多字段 name-php id-js -->
+                <div class="submit-row">
+                    <form id="redEnvelopeForm" method="post">
+                        <input type="submit" value="提交">
+						<p class="footer-text"><a href="https://bctc-squad.cn/">由冲锋号社区提供技术支持</a></p>
+                    </form>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -50,7 +50,7 @@ do
 	$RCOMSF $SQUADCMD $CMD > $PUTFILE
 	
 	ERR1=`cat $PUTFILE|wc -l`
-	ERR2=`cat $PUTFILE |grep "Illegal size" |grep -vE command\|Message\|broadcasted |wc -l`
+	ERR2=`cat $PUTFILE | grep -E "Illegal size"\|Connection\|Authenticate |grep -vE command\|Message\|broadcasted |wc -l`
 	if [ $ERR1 -gt 2 ] || [ $ERR2 -eq 0 ] ;then
 		break 
 	else

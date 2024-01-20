@@ -1,26 +1,168 @@
 【冲锋衣项目更新日志】
-非较大内容的变动不在此处体现
 
-版本号：Version 0.1.136-2023/12/5 1:58
+Version 1.0.80-2024/1/11 20:39
+1、发布能够通过Web设置插件参数的能力，基于PHP实现，由于普通用户权限无法绕过的权限问题，nginx需要手动修改本地nginx和重启nginx。（尚未实现）
+
+Version 1.0.64-2024/1/11 2:43
+1、增加游戏内的随机打乱功能
+2、增加配置项
+#随机打乱所需要的权限等级
+ConfirmRandomShuffling_AdminsList=$Admins_User_S
+
+Version 1.0.61-2024/1/9 12:27
+1、调整游戏时长查询为组织时间，而不是单个服务器的时间。
+
+Version 1.0.60-2024/1/7 20:20
+1、新增如下配置
+#是否开启冲锋号社区直升机公开训练服模式-结束时时间倍数控制 0=关 此功能在认证服务器不要开启！
+BCTC_LogSquadGameEventsIf=0 
+#对局结束时刻的时间倍数，可调整为 0-20 ,注意，如果调整为 0 ，那么时间将会暂停！ 直到管理员重新刷入新的 AdminSlomo
+EndMatchTimeMultiplier="0.5"
+
+Version 1.0.55-2024/1/6 0:35
+1、新增如下配置
+#功能包括：开局跳过等待准备时间、放开所有限制、跳过结算界面
+#是否开启冲锋号社区直升机公开训练服模式-开局跳过并解除所有限制 0=关
+BCTC_TrainingMatchIf=0
+#是否开启冲锋号社区直升机公开训练服模式-击杀检测及炮手位检查自动踢出 0=关
+BCTC_TrainingActualDamageIf=0
+#是否开启冲锋号社区直升机公开训练服模式-炮手位检查自动踢出 0=关
+BCTC_TrainingTurretIf=0
+#是否开启冲锋号社区直升机公开训练服模式-玩家身份自助切换地图 0=关
+BCTC_TrainingChangeLayer=0
+#是否开启冲锋号社区直升机公开训练服模式-玩家身份自助切换地图冷却时间（每个玩家冷却分钟）
+BCTC_TrainingChangeLayerCDTime=60
+2、增加训练模式
+
+Version 1.0.43-2024/1/3 18:39
+1、取消 BM API 转向使用 Steam API 获取更准确的 Steam 用户信息
+2、修复一个重大的CDK激活BUG，问题会导致签到特权和积分CDK激活后能够二次激活。
+
+Version 1.0.41-2024/1/3 02:24
+1、增加配置项
+#是否上传大喇叭联动 1=是 0=否 //此处配置只能关闭本服务器的大喇叭发送，但是仍会收到其他服务器的大喇叭，此问题或在后续解决。
+PlayerGroupSpeakerIf=1
+2、新增大喇叭跨服联动功能。
+3、修复一个大小喇叭的多余字符输出BUG
+
+Version 1.0.28-2023/12/28 22:28
+1、增加配置项，优化配置灵活性
+#积分名称
+PointsName="积分"
+#气象广播时候的服务器名称
+WeatherBroadcastServerNname="本服务器"
+#牛子长度留存分钟数
+NiuZiChangDuTimeTmp=432
+#是否开启牛子长度娱乐功能 不开启=0
+NiuZiChangDuIf=1
+2、增加牛子长度获取。
+3、修复游戏内CDK激活的错误回显
+4、优化发福利功能的错误提示文字信息。
+5、增加发红包的积分红包分支。
+
+Version 1.0.15-2023/12/28 0:33
+1、版本号正式定义为1.0正式版本，目前仍只推出先锋测试版本，尚未提供稳定版本。
+2、修复一个重大BUG和数个小BUG。
+3、新增PlayersJoinTheBroadcast.sh - 玩家加入服务器广播。 配置：${WBHKHOME}/date/BasicData/PlayersJoinTheBroadcast
+
+Version 0.1.170-2023/12/25 22:30
+1、修复签到模式的问题。
+2、修复查询小队员的非队长使用功能的问题。
+3、修正玩家ID缓存错误的问题。
+4、优化发福利的提示文案，根据实际发放数额，回复天数或小时。
+5、新增发红包与抢红包的功能。
+6、新增以下配置：
+#发红包功能
+#是否开启发红包的功能 0=不开启 1=开启
+HandOutRedEnvelopesStart=1
+#发红包红包的最低单个红包使用积分
+HandOutRedEnvelopesLow=12
+#抢得红包处理方式 1=直充预留位 2=直充积分
+SnatchingRedEnvelopesMod=1
+#红包过期时间，分钟
+RedEnvelopesBecomeDue=4320
+#每次抢红包间隔时间，分钟
+RedEnvelopesCooldown=20
+#VIP名称
+ServerVipNname="VIP"
+7、优化启动脚本软连接逻辑。
+8、修正天气预报广播错误玩家的BUG。
+
+Version 0.1.168-2023/12/25 13:15
+1、优化启动脚本，自动生成软连接，方便前端管理。
+2、修改更新日志字符集。
+3、修正签到的日志不会被正确记录的BUG。
+4、优化发福利的提示，修正发福利的玩家回显时间错误。
+
+Version 0.1.165-2023/12/25 12:38
+1、优化大小喇叭的发送信息。
+2、新增PlayerListSnapshots.sh - 用于留存当前对战的玩家信息，方便后续福利发放。 触发器：玩家清单 wjqd
+3、config.sh文件新增以下配置：
+#权限列表文件 写入64ID即可
+Admins_User_S="${WBHKHOME}/date/BasicData/Admins_S"
+Admins_User_A="${WBHKHOME}/date/BasicData/Admins_A"
+Admins_User_B="${WBHKHOME}/date/BasicData/Admins_B"
+Admins_User_C="${WBHKHOME}/date/BasicData/Admins_C"
+#玩家快照所需要的权限等级 PlayerListSnapshots
+PlayerListSnapshots_AdminsList=$Admins_User_S
+#当前玩家列表快照留存路径-3小时缓存
+PlayerListSnapshots=${WBHKHOME}/date/tmp/PlayerListSnapshots/PlayerListSnapshots.tmp
+#发福利功能最低发放限制(单位：积分)
+GrantReservedWelfareLow=12
+4、新增对当前玩家发福利功能 GrantReservedWelfare.sh 触发器：ffl 发福利
+5、新增对快照玩家列表发福利功能 PlayerListSnapshots.sh  触发器 ：上局福利 sjfl
+
+Version 0.1.161-2023/12/24 23:12
+1、增加PlayerMessage.sh，玩家消息集中管控转发系统，简化BM配置方法。
+2、增加积分兑换功能，命令为：兑换 dh
+3、适配其他脚本的转发接收处理流程。
+4、config.sh文件新增以下配置：
+#积分兑换预留位最低数值
+PointsActivationReservedLow=20
+#玩家小喇叭消耗积分
+PlayerServerSpeakerPoints=10
+#玩家大喇叭消耗积分
+PlayerGroupSpeakerPoints=30
+5、解决了一些小问题。
+6、增加大小喇叭喊话的功能，命令为：chat.s chat.g 小喇叭 大喇叭
+7、增加日志查询能力，可解析玩家加入信息，对于VIP用户给出当前的气象信息。
+
+Version 0.1.147-2023/12/24 12:50
+1、修正积分激活返回错误的问题。
+2、增加config.sh配置文件关键信息，建议重新安装，备份数据。
+3、增加自动更新程序。
+4、增加多种签到成功后的触发模式。
+5、增加优化框架内容，增加Rcon重连正则，增加用户信息缓存。
+
+Version 0.1.142-2023/12/17 18:38
+1、发布3个新的功能。
+SignIn.sh - 签到功能
+UserInfo - 玩家信息查询
+CdkyeActivation - CDK激活程序
+2、解决了一些小问题。
+3、增加数个additional辅助脚本，涉及预留位的删除、权限同步、权限积分统一增删接口等。
+4、预置了一个远程权限同步程序。
+
+Version 0.1.136-2023/12/5 1:58
 内容：
-1、发布两个个新的功能。
+1、发布2个新的功能。
 CreatSquadBroadcast - 小队创建播报
 CreatSquadTime - 小队创建时间查询
 2、修正本地的玩家时长查询会缓存一小时未公开的玩家资料的问题，未公开资料的玩家将不会生成缓存，以方便等候玩家公开个人资料快速生效。
 
-版本号：Version 0.1.133-2023/11/30 23:31
+Version 0.1.133-2023/11/30 23:31
 内容：
 1、发布一个新的功能。
 涉及：SteamStatisticsDuration - Steam统计时长查询
 
-版本号：Version 0.1.122-2023/10/31 20:20
+Version 0.1.122-2023/10/31 20:20
 内容：
 1、发布一个新的功能。
 涉及：TeamDuration.sh-查询小队员游戏时长
 2、解决了一些小问题。
 3、修改部分文字描述。
 
-版本号：Version 0.1.115-2023/10/31 13:23
+Version 0.1.115-2023/10/31 13:23
 内容：
 1、发布的第一个对外版本。
 2、完成基础框架构建和基本启动能力。
