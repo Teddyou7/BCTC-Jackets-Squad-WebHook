@@ -23,7 +23,7 @@ RCON_CMD(){
 		sleep 1
 		#最大循环次数，防止脚本进入死循环
 		COUNTER1=$((COUNTER1+1))
-		if [ $COUNTER1 -eq 100 ];then
+		if [ $COUNTER1 -eq 50 ];then
 			echo "RCON_CDM Failed!"
 			break
 		fi

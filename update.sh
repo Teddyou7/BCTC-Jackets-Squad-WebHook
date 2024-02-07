@@ -8,9 +8,13 @@ INDEX_URL="http://$HOSTIPPORT/index.txt?key=$UPDATEKEY"
 LOCAL_VERSION_FILE="${WBHKHOME}/Version"
 DOWNLOAD_DIR=${WBHKHOME}
 
-wget -q -O ${WBHKHOME}/date/tmp/version.txt $VERSION_URL
-if [ "$(cat ${WBHKHOME}/date/tmp/version.txt)" != "$(cat $LOCAL_VERSION_FILE)" ]; then
-    wget -q -O ${WBHKHOME}/date/tmp/index $INDEX_URL
+wget -q -O ${WBHKHOME}/version.tmp $VERSION_URL
+
+echo "Current $(cat $LOCAL_VERSION_FILE)"
+echo "Server $(cat ${WBHKHOME}/version.tmp)"
+
+if [ "$(cat ${WBHKHOME}/version.tmp)" != "$(cat $LOCAL_VERSION_FILE)" ]; then
+    wget -q -O ${WBHKHOME}/upindex.tmp $INDEX_URL
 
         while IFS= read -r line; do
                 # 检查是否为目录
@@ -23,11 +27,11 @@ if [ "$(cat ${WBHKHOME}/date/tmp/version.txt)" != "$(cat $LOCAL_VERSION_FILE)" ]
                         echo "Downloading $line ..."
                         wget -q -O "$DOWNLOAD_DIR/$line" "http://$HOSTIPPORT/$line?key=$UPDATEKEY"
                 fi
-        done < ${WBHKHOME}/date/tmp/index
+        done < ${WBHKHOME}/upindex.tmp
 
-    #$cp ${WBHKHOME}/date/tmp/version.txt $LOCAL_VERSION_FILE
+    #$cp ${WBHKHOME}/version.tmp $LOCAL_VERSION_FILE
 else
     echo "Already up to date."
 fi
 
-rm ${WBHKHOME}/date/tmp/version.txt ${WBHKHOME}/date/tmp/index
+rm ${WBHKHOME}/version.tmp ${WBHKHOME}/upindex.tmp

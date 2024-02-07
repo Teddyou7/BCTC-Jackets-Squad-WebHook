@@ -51,7 +51,7 @@ do
 	if [ $COUNTER -eq $PLSUM ];then
 		break
 	fi 
-	${WBHKHOME}/bin/rcon/mcrcon -H ${ServerIP} -P ${RconPort} -p "${RconPasswd}" "AdminWarnById ${PL[$COUNTER]} 您已被打乱程序选中。" ok
+	#${WBHKHOME}/bin/rcon/mcrcon -H ${ServerIP} -P ${RconPort} -p "${RconPasswd}" "AdminWarnById ${PL[$COUNTER]} 您已被打乱程序选中。" ok
 	${WBHKHOME}/bin/rcon/mcrcon -H ${ServerIP} -P ${RconPort} -p "${RconPasswd}" "AdminForceTeamChangeById ${PL[$COUNTER]} " ok
 	COUNTER=$((COUNTER+1))
 done

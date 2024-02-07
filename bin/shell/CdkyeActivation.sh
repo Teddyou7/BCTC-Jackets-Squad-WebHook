@@ -79,20 +79,19 @@ if [ $CheckCDKChannel -eq 1 ] ;then
         fi
 fi
 
-#开始处理预留位
-${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$Value" "$ActivationMode"
-echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:成功激活CDK-${CdkeyInfo}-$ActivationProject" >> $UserOperateLog/$steamID
-
 if [ "$ActivationMode" -eq 1 ];then
 		sed -i "/${CdkeyInfo}/d" $File_PointsCDKFilePath
-		AccountBalance=`cat $PointsUserInfo |grep $steamID |awk -F \: '{print $2}'`
+		AccountBalance=$(${WBHKHOME}/bin/shell/additional/transaction_manager.sh "$steamID" "add" "${Value}" "${CdkeyInfo}")
 		$CMDSH AdminWarnById $PlayerID 成功激活${Value}${ActivationProject}，当前余额为${AccountBalance}${ActivationProject}
 	elif [ "$ActivationMode" -eq 2 ];then
+		${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$Value" "$ActivationMode"
+		echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:成功激活CDK-${CdkeyInfo}-$ActivationProject" >> $UserOperateLog/$steamID
 		sed -i "/${CdkeyInfo}/d" $File_ReservedCDKFilePath
 		AccountBalance=`cat $ReservedUserInfo |grep $steamID |awk -F \: '{print $2}'`
 		$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
 	elif [ "$ActivationMode" -eq 3 ];then
-		sed -i "/${CdkeyInfo}/d" $File_SignVIPCDKFilePath
+		${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$Value" "$ActivationMode"
+		echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:成功激活CDK-${CdkeyInfo}-$ActivationProject" >> $UserOperateLog/$steamIDsed -i "/${CdkeyInfo}/d" $File_SignVIPCDKFilePath
 		AccountBalance=`cat $SignVIPUserInfo |grep $steamID |awk -F \: '{print $2}'`
 		$CMDSH AdminWarnById $PlayerID 成功激活${ReservedDAY}${Unit}${ActivationProject}，最新到期时间`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
 fi

@@ -8,11 +8,11 @@
 #Come from: -冲锋号-Teddyou
 #参数设置 - source $(echo $(cd `dirname $0`; pwd))/cfg/config.sh
 
+#设置语言环境
+export LANG=en_US.UTF-8
+
 #WebHook根目录位置
 WBHKHOME="/home/squad/webhook"
-
-#读取系统配置
-source ${WBHKHOME}/cfg/system_config.sh
 
 #读取API配置
 source ${WBHKHOME}/cfg/api_config.sh
@@ -22,3 +22,6 @@ source ${WBHKHOME}/cfg/function_config.sh
 
 #读取数据库配置
 source ${WBHKHOME}/cfg/db_config.sh
+
+#读取系统配置
+source ${WBHKHOME}/cfg/system_config.sh

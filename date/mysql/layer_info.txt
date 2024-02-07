@@ -1,0 +1,1654 @@
+AlBasrah_AAS_v1:United States Army:1
+AlBasrah_AAS_v1:Middle Eastern Alliance:2
+AlBasrah_AAS_v1:美国陆军:1
+AlBasrah_AAS_v1:中东联军:2
+AlBasrah_AAS_v2:United States Army:1
+AlBasrah_AAS_v2:Insurgent Forces:2
+AlBasrah_AAS_v2:美国陆军:1
+AlBasrah_AAS_v2:叛乱军队:2
+AlBasrah_AAS_v3:Australian Defence Force:1
+AlBasrah_AAS_v3:Insurgent Forces:2
+AlBasrah_AAS_v3:澳大利亚国防军:1
+AlBasrah_AAS_v3:叛乱军队:2
+AlBasrah_Insurgency_v1:British Armed Forces:1
+AlBasrah_Insurgency_v1:Insurgent Forces:2
+AlBasrah_Insurgency_v1:英国陆军:1
+AlBasrah_Insurgency_v1:叛乱军队:2
+AlBasrah_Invasion_v1:British Armed Forces:1
+AlBasrah_Invasion_v1:Insurgent Forces:2
+AlBasrah_Invasion_v1:英国陆军:1
+AlBasrah_Invasion_v1:叛乱军队:2
+AlBasrah_Invasion_v2:United States Marine Corps:1
+AlBasrah_Invasion_v2:Insurgent Forces:2
+AlBasrah_Invasion_v2:美国海军陆战队:1
+AlBasrah_Invasion_v2:叛乱军队:2
+AlBasrah_Invasion_v3:Australian Defence Force:1
+AlBasrah_Invasion_v3:Insurgent Forces:2
+AlBasrah_Invasion_v3:澳大利亚国防军:1
+AlBasrah_Invasion_v3:叛乱军队:2
+AlBasrah_Invasion_v4:Canadian Armed Forces:1
+AlBasrah_Invasion_v4:Insurgent Forces:2
+AlBasrah_Invasion_v4:加拿大军队:1
+AlBasrah_Invasion_v4:叛乱军队:2
+AlBasrah_Invasion_v5:Canadian Armed Forces:1
+AlBasrah_Invasion_v5:Middle Eastern Alliance:2
+AlBasrah_Invasion_v5:加拿大军队:1
+AlBasrah_Invasion_v5:中东联军:2
+AlBasrah_Invasion_v6:Canadian Armed Forces:1
+AlBasrah_Invasion_v6:Insurgent Forces:2
+AlBasrah_Invasion_v6:加拿大军队:1
+AlBasrah_Invasion_v6:叛乱军队:2
+AlBasrah_Invasion_v7:Middle Eastern Alliance:1
+AlBasrah_Invasion_v7:Insurgent Forces:2
+AlBasrah_Invasion_v7:中东联军:1
+AlBasrah_Invasion_v7:叛乱军队:2
+AlBasrah_Invasion_v8:People's Liberation Army:1
+AlBasrah_Invasion_v8:Insurgent Forces:2
+AlBasrah_Invasion_v8:中国人民解放军:1
+AlBasrah_Invasion_v8:叛乱军队:2
+AlBasrah_RAAS_v1:Irregular Militia Forces:1
+AlBasrah_RAAS_v1:Insurgent Forces:2
+AlBasrah_RAAS_v1:非正规民兵:1
+AlBasrah_RAAS_v1:叛乱军队:2
+AlBasrah_Seed_v1:British Armed Forces:1
+AlBasrah_Seed_v1:Middle Eastern Alliance:2
+AlBasrah_Seed_v1:英国陆军:1
+AlBasrah_Seed_v1:中东联军:2
+AlBasrah_Skirmish_v1:British Armed Forces:1
+AlBasrah_Skirmish_v1:Middle Eastern Alliance:2
+AlBasrah_Skirmish_v1:英国陆军:1
+AlBasrah_Skirmish_v1:中东联军:2
+AlBasrah_Skirmish_v2:Irregular Militia Forces:1
+AlBasrah_Skirmish_v2:Insurgent Forces:2
+AlBasrah_Skirmish_v2:非正规民兵:1
+AlBasrah_Skirmish_v2:叛乱军队:2
+AlBasrah_TA_v1:United States Army:1
+AlBasrah_TA_v1:United States Army:2
+AlBasrah_TA_v1:美国陆军:1
+AlBasrah_TA_v1:美国陆军:2
+AlBasrah_TC_v1:British Armed Forces:1
+AlBasrah_TC_v1:Middle Eastern Alliance:2
+AlBasrah_TC_v1:英国陆军:1
+AlBasrah_TC_v1:中东联军:2
+AlBasrah_TC_v2:United States Army:1
+AlBasrah_TC_v2:Middle Eastern Alliance:2
+AlBasrah_TC_v2:美国陆军:1
+AlBasrah_TC_v2:中东联军:2
+Anvil_AAS_v1:Australian Defence Force:1
+Anvil_AAS_v1:People's Liberation Army:2
+Anvil_AAS_v1:澳大利亚国防军:1
+Anvil_AAS_v1:中国人民解放军:2
+Anvil_AAS_v2:Australian Defence Force:1
+Anvil_AAS_v2:Russian Ground Forces:2
+Anvil_AAS_v2:澳大利亚国防军:1
+Anvil_AAS_v2:俄罗斯陆军:2
+Anvil_Invasion_v1:Australian Defence Force:1
+Anvil_Invasion_v1:Insurgent Forces:2
+Anvil_Invasion_v1:澳大利亚国防军:1
+Anvil_Invasion_v1:叛乱军队:2
+Anvil_Invasion_v2:Australian Defence Force:1
+Anvil_Invasion_v2:Insurgent Forces:2
+Anvil_Invasion_v2:澳大利亚国防军:1
+Anvil_Invasion_v2:叛乱军队:2
+Anvil_RAAS_v1:Russian Ground Forces:1
+Anvil_RAAS_v1:Middle Eastern Alliance:2
+Anvil_RAAS_v1:俄罗斯陆军:1
+Anvil_RAAS_v1:中东联军:2
+Anvil_RAAS_v2:Canadian Armed Forces:1
+Anvil_RAAS_v2:Middle Eastern Alliance:2
+Anvil_RAAS_v2:加拿大军队:1
+Anvil_RAAS_v2:中东联军:2
+Anvil_RAAS_v3:Australian Defence Force:1
+Anvil_RAAS_v3:Middle Eastern Alliance:2
+Anvil_RAAS_v3:澳大利亚国防军:1
+Anvil_RAAS_v3:中东联军:2
+Anvil_RAAS_v4:Australian Defence Force:1
+Anvil_RAAS_v4:Russian Airborne Forces:2
+Anvil_RAAS_v4:澳大利亚国防军:1
+Anvil_RAAS_v4:俄罗斯空降军:2
+Anvil_Skirmish_v1:Australian Defence Force:1
+Anvil_Skirmish_v1:Russian Ground Forces:2
+Anvil_Skirmish_v1:澳大利亚国防军:1
+Anvil_Skirmish_v1:俄罗斯陆军:2
+Anvil_TC_v1:Australian Defence Force:1
+Anvil_TC_v1:Russian Ground Forces:2
+Anvil_TC_v1:澳大利亚国防军:1
+Anvil_TC_v1:俄罗斯陆军:2
+Belaya_AAS_v1:Russian Ground Forces:1
+Belaya_AAS_v1:Irregular Militia Forces:2
+Belaya_AAS_v1:俄罗斯陆军:1
+Belaya_AAS_v1:非正规民兵:2
+Belaya_AAS_v2:British Armed Forces:1
+Belaya_AAS_v2:Russian Ground Forces:2
+Belaya_AAS_v2:英国陆军:1
+Belaya_AAS_v2:俄罗斯陆军:2
+Belaya_AAS_v3:Canadian Armed Forces:1
+Belaya_AAS_v3:Russian Ground Forces:2
+Belaya_AAS_v3:加拿大军队:1
+Belaya_AAS_v3:俄罗斯陆军:2
+Belaya_Invasion_v1:Russian Ground Forces:1
+Belaya_Invasion_v1:Irregular Militia Forces:2
+Belaya_Invasion_v1:俄罗斯陆军:1
+Belaya_Invasion_v1:非正规民兵:2
+Belaya_Invasion_v2:United States Army:1
+Belaya_Invasion_v2:Russian Ground Forces:2
+Belaya_Invasion_v2:美国陆军:1
+Belaya_Invasion_v2:俄罗斯陆军:2
+Belaya_Invasion_v3:British Armed Forces:1
+Belaya_Invasion_v3:Russian Airborne Forces:2
+Belaya_Invasion_v3:英国陆军:1
+Belaya_Invasion_v3:俄罗斯空降军:2
+Belaya_RAAS_v1:United States Army:1
+Belaya_RAAS_v1:PLA Navy Marine Corps:2
+Belaya_RAAS_v1:美国陆军:1
+Belaya_RAAS_v1:中国人民解放军海军陆战队:2
+Belaya_RAAS_v2:United States Marine Corps:1
+Belaya_RAAS_v2:Irregular Militia Forces:2
+Belaya_RAAS_v2:美国海军陆战队:1
+Belaya_RAAS_v2:非正规民兵:2
+Belaya_RAAS_v3:British Armed Forces:1
+Belaya_RAAS_v3:Irregular Militia Forces:2
+Belaya_RAAS_v3:英国陆军:1
+Belaya_RAAS_v3:非正规民兵:2
+Belaya_RAAS_v4:Canadian Armed Forces:1
+Belaya_RAAS_v4:Russian Ground Forces:2
+Belaya_RAAS_v4:加拿大军队:1
+Belaya_RAAS_v4:俄罗斯陆军:2
+Belaya_RAAS_v5:Canadian Armed Forces:1
+Belaya_RAAS_v5:Irregular Militia Forces:2
+Belaya_RAAS_v5:加拿大军队:1
+Belaya_RAAS_v5:非正规民兵:2
+Belaya_Skirmish_v1:Canadian Armed Forces:1
+Belaya_Skirmish_v1:Irregular Militia Forces:2
+Belaya_Skirmish_v1:加拿大军队:1
+Belaya_Skirmish_v1:非正规民兵:2
+Belaya_TC_v1:United States Army:1
+Belaya_TC_v1:Russian Ground Forces:2
+Belaya_TC_v1:美国陆军:1
+Belaya_TC_v1:俄罗斯陆军:2
+BlackCoast_AAS_v1:United States Marine Corps:1
+BlackCoast_AAS_v1:Russian Airborne Forces:2
+BlackCoast_AAS_v1:美国海军陆战队:1
+BlackCoast_AAS_v1:俄罗斯空降军:2
+BlackCoast_AAS_v2:British Armed Forces:1
+BlackCoast_AAS_v2:Irregular Militia Forces:2
+BlackCoast_AAS_v2:英国陆军:1
+BlackCoast_AAS_v2:非正规民兵:2
+BlackCoast_Invasion_v1:United States Marine Corps:1
+BlackCoast_Invasion_v1:Russian Ground Forces:2
+BlackCoast_Invasion_v1:美国海军陆战队:1
+BlackCoast_Invasion_v1:俄罗斯陆军:2
+BlackCoast_Invasion_v2:United States Marine Corps:1
+BlackCoast_Invasion_v2:Irregular Militia Forces:2
+BlackCoast_Invasion_v2:美国海军陆战队:1
+BlackCoast_Invasion_v2:非正规民兵:2
+BlackCoast_Invasion_v3:Canadian Armed Forces:1
+BlackCoast_Invasion_v3:Irregular Militia Forces:2
+BlackCoast_Invasion_v3:加拿大军队:1
+BlackCoast_Invasion_v3:非正规民兵:2
+BlackCoast_Invasion_v4:Russian Ground Forces:1
+BlackCoast_Invasion_v4:Irregular Militia Forces:2
+BlackCoast_Invasion_v4:俄罗斯陆军:1
+BlackCoast_Invasion_v4:非正规民兵:2
+BlackCoast_Invasion_v5:United States Marine Corps:1
+BlackCoast_Invasion_v5:PLA Navy Marine Corps:2
+BlackCoast_Invasion_v5:美国海军陆战队:1
+BlackCoast_Invasion_v5:中国人民解放军海军陆战队:2
+BlackCoast_RAAS_v1:United States Marine Corps:1
+BlackCoast_RAAS_v1:Russian Airborne Forces:2
+BlackCoast_RAAS_v1:美国海军陆战队:1
+BlackCoast_RAAS_v1:俄罗斯空降军:2
+BlackCoast_RAAS_v2:United States Marine Corps:1
+BlackCoast_RAAS_v2:Irregular Militia Forces:2
+BlackCoast_RAAS_v2:美国海军陆战队:1
+BlackCoast_RAAS_v2:非正规民兵:2
+BlackCoast_RAAS_v3:British Armed Forces:1
+BlackCoast_RAAS_v3:Russian Ground Forces:2
+BlackCoast_RAAS_v3:英国陆军:1
+BlackCoast_RAAS_v3:俄罗斯陆军:2
+BlackCoast_RAAS_v4:Canadian Armed Forces:1
+BlackCoast_RAAS_v4:Russian Ground Forces:2
+BlackCoast_RAAS_v4:加拿大军队:1
+BlackCoast_RAAS_v4:俄罗斯陆军:2
+BlackCoast_RAAS_v5:Russian Airborne Forces:1
+BlackCoast_RAAS_v5:Irregular Militia Forces:2
+BlackCoast_RAAS_v5:俄罗斯空降军:1
+BlackCoast_RAAS_v5:非正规民兵:2
+BlackCoast_Seed_v1:United States Marine Corps:1
+BlackCoast_Seed_v1:Russian Airborne Forces:2
+BlackCoast_Seed_v1:美国海军陆战队:1
+BlackCoast_Seed_v1:俄罗斯空降军:2
+BlackCoast_Skirmish_v1:United States Marine Corps:1
+BlackCoast_Skirmish_v1:Russian Ground Forces:2
+BlackCoast_Skirmish_v1:美国海军陆战队:1
+BlackCoast_Skirmish_v1:俄罗斯陆军:2
+Chora_AAS_v1:United States Army:1
+Chora_AAS_v1:Middle Eastern Alliance:2
+Chora_AAS_v1:美国陆军:1
+Chora_AAS_v1:中东联军:2
+Chora_AAS_v2:United States Marine Corps:1
+Chora_AAS_v2:Russian Ground Forces:2
+Chora_AAS_v2:美国海军陆战队:1
+Chora_AAS_v2:俄罗斯陆军:2
+Chora_AAS_v3:United States Army:1
+Chora_AAS_v3:Russian Ground Forces:2
+Chora_AAS_v3:美国陆军:1
+Chora_AAS_v3:俄罗斯陆军:2
+Chora_AAS_v4:Australian Defence Force:1
+Chora_AAS_v4:Russian Ground Forces:2
+Chora_AAS_v4:澳大利亚国防军:1
+Chora_AAS_v4:俄罗斯陆军:2
+Chora_AAS_v5:Canadian Armed Forces:1
+Chora_AAS_v5:Russian Ground Forces:2
+Chora_AAS_v5:加拿大军队:1
+Chora_AAS_v5:俄罗斯陆军:2
+Chora_AAS_v6:United States Army:1
+Chora_AAS_v6:People's Liberation Army:2
+Chora_AAS_v6:美国陆军:1
+Chora_AAS_v6:中国人民解放军:2
+Chora_Insurgency_v1:United States Army:1
+Chora_Insurgency_v1:Insurgent Forces:2
+Chora_Insurgency_v1:美国陆军:1
+Chora_Insurgency_v1:叛乱军队:2
+Chora_Invasion_v1:United States Army:1
+Chora_Invasion_v1:Insurgent Forces:2
+Chora_Invasion_v1:美国陆军:1
+Chora_Invasion_v1:叛乱军队:2
+Chora_Invasion_v2:United States Army:1
+Chora_Invasion_v2:Insurgent Forces:2
+Chora_Invasion_v2:美国陆军:1
+Chora_Invasion_v2:叛乱军队:2
+Chora_RAAS_v1:United States Army:1
+Chora_RAAS_v1:Russian Ground Forces:2
+Chora_RAAS_v1:美国陆军:1
+Chora_RAAS_v1:俄罗斯陆军:2
+Chora_RAAS_v2:British Armed Forces:1
+Chora_RAAS_v2:Middle Eastern Alliance:2
+Chora_RAAS_v2:英国陆军:1
+Chora_RAAS_v2:中东联军:2
+Chora_RAAS_v3:Australian Defence Force:1
+Chora_RAAS_v3:Insurgent Forces:2
+Chora_RAAS_v3:澳大利亚国防军:1
+Chora_RAAS_v3:叛乱军队:2
+Chora_RAAS_v4:Canadian Armed Forces:1
+Chora_RAAS_v4:Middle Eastern Alliance:2
+Chora_RAAS_v4:加拿大军队:1
+Chora_RAAS_v4:中东联军:2
+Chora_RAAS_v5:United States Army:1
+Chora_RAAS_v5:People's Liberation Army:2
+Chora_RAAS_v5:美国陆军:1
+Chora_RAAS_v5:中国人民解放军:2
+Chora_Skirmish_v1:United States Army:1
+Chora_Skirmish_v1:Russian Ground Forces:2
+Chora_Skirmish_v1:美国陆军:1
+Chora_Skirmish_v1:俄罗斯陆军:2
+Chora_TC_v1:United States Army:1
+Chora_TC_v1:Middle Eastern Alliance:2
+Chora_TC_v1:美国陆军:1
+Chora_TC_v1:中东联军:2
+Fallujah_AAS_v1:Middle Eastern Alliance:1
+Fallujah_AAS_v1:Insurgent Forces:2
+Fallujah_AAS_v1:中东联军:1
+Fallujah_AAS_v1:叛乱军队:2
+Fallujah_AAS_v2:United States Marine Corps:1
+Fallujah_AAS_v2:Middle Eastern Alliance:2
+Fallujah_AAS_v2:美国海军陆战队:1
+Fallujah_AAS_v2:中东联军:2
+Fallujah_Insurgency_v1:United States Army:1
+Fallujah_Insurgency_v1:Insurgent Forces:2
+Fallujah_Insurgency_v1:美国陆军:1
+Fallujah_Insurgency_v1:叛乱军队:2
+Fallujah_Invasion_v1:United States Marine Corps:1
+Fallujah_Invasion_v1:Insurgent Forces:2
+Fallujah_Invasion_v1:美国海军陆战队:1
+Fallujah_Invasion_v1:叛乱军队:2
+Fallujah_Invasion_v2:Middle Eastern Alliance:1
+Fallujah_Invasion_v2:Insurgent Forces:2
+Fallujah_Invasion_v2:中东联军:1
+Fallujah_Invasion_v2:叛乱军队:2
+Fallujah_Invasion_v3:United States Marine Corps:1
+Fallujah_Invasion_v3:Insurgent Forces:2
+Fallujah_Invasion_v3:美国海军陆战队:1
+Fallujah_Invasion_v3:叛乱军队:2
+Fallujah_Invasion_v4:Australian Defence Force:1
+Fallujah_Invasion_v4:Insurgent Forces:2
+Fallujah_Invasion_v4:澳大利亚国防军:1
+Fallujah_Invasion_v4:叛乱军队:2
+Fallujah_Invasion_v5:Canadian Armed Forces:1
+Fallujah_Invasion_v5:Insurgent Forces:2
+Fallujah_Invasion_v5:加拿大军队:1
+Fallujah_Invasion_v5:叛乱军队:2
+Fallujah_Invasion_v6:Middle Eastern Alliance:1
+Fallujah_Invasion_v6:People's Liberation Army:2
+Fallujah_Invasion_v6:中东联军:1
+Fallujah_Invasion_v6:中国人民解放军:2
+Fallujah_RAAS_v1:United States Marine Corps:1
+Fallujah_RAAS_v1:Middle Eastern Alliance:2
+Fallujah_RAAS_v1:美国海军陆战队:1
+Fallujah_RAAS_v1:中东联军:2
+Fallujah_RAAS_v2:British Armed Forces:1
+Fallujah_RAAS_v2:Middle Eastern Alliance:2
+Fallujah_RAAS_v2:英国陆军:1
+Fallujah_RAAS_v2:中东联军:2
+Fallujah_RAAS_v3:United States Marine Corps:1
+Fallujah_RAAS_v3:Middle Eastern Alliance:2
+Fallujah_RAAS_v3:美国海军陆战队:1
+Fallujah_RAAS_v3:中东联军:2
+Fallujah_RAAS_v4:Australian Defence Force:1
+Fallujah_RAAS_v4:Middle Eastern Alliance:2
+Fallujah_RAAS_v4:澳大利亚国防军:1
+Fallujah_RAAS_v4:中东联军:2
+Fallujah_RAAS_v5:Canadian Armed Forces:1
+Fallujah_RAAS_v5:Middle Eastern Alliance:2
+Fallujah_RAAS_v5:加拿大军队:1
+Fallujah_RAAS_v5:中东联军:2
+Fallujah_RAAS_v6:United States Marine Corps:1
+Fallujah_RAAS_v6:Insurgent Forces:2
+Fallujah_RAAS_v6:美国海军陆战队:1
+Fallujah_RAAS_v6:叛乱军队:2
+Fallujah_RAAS_v7:United States Marine Corps:1
+Fallujah_RAAS_v7:People's Liberation Army:2
+Fallujah_RAAS_v7:美国海军陆战队:1
+Fallujah_RAAS_v7:中国人民解放军:2
+Fallujah_Seed_v1:United States Army:1
+Fallujah_Seed_v1:Middle Eastern Alliance:2
+Fallujah_Seed_v1:美国陆军:1
+Fallujah_Seed_v1:中东联军:2
+Fallujah_Skirmish_v1:United States Army:1
+Fallujah_Skirmish_v1:Middle Eastern Alliance:2
+Fallujah_Skirmish_v1:美国陆军:1
+Fallujah_Skirmish_v1:中东联军:2
+Fallujah_Skirmish_v2:United States Army:1
+Fallujah_Skirmish_v2:Insurgent Forces:2
+Fallujah_Skirmish_v2:美国陆军:1
+Fallujah_Skirmish_v2:叛乱军队:2
+Fallujah_TC_v1:United States Army:1
+Fallujah_TC_v1:Middle Eastern Alliance:2
+Fallujah_TC_v1:美国陆军:1
+Fallujah_TC_v1:中东联军:2
+Fallujah_TC_v2:United States Army:1
+Fallujah_TC_v2:Middle Eastern Alliance:2
+Fallujah_TC_v2:美国陆军:1
+Fallujah_TC_v2:中东联军:2
+FoolsRoad_AAS_v1:United States Army:1
+FoolsRoad_AAS_v1:Russian Ground Forces:2
+FoolsRoad_AAS_v1:美国陆军:1
+FoolsRoad_AAS_v1:俄罗斯陆军:2
+FoolsRoad_AAS_v2:United States Army:1
+FoolsRoad_AAS_v2:Russian Airborne Forces:2
+FoolsRoad_AAS_v2:美国陆军:1
+FoolsRoad_AAS_v2:俄罗斯空降军:2
+FoolsRoad_Destruction_v1:Russian Ground Forces:1
+FoolsRoad_Destruction_v1:Irregular Militia Forces:2
+FoolsRoad_Destruction_v1:俄罗斯陆军:1
+FoolsRoad_Destruction_v1:非正规民兵:2
+FoolsRoad_Invasion_v1:British Armed Forces:1
+FoolsRoad_Invasion_v1:Irregular Militia Forces:2
+FoolsRoad_Invasion_v1:英国陆军:1
+FoolsRoad_Invasion_v1:非正规民兵:2
+FoolsRoad_RAAS_v1:British Armed Forces:1
+FoolsRoad_RAAS_v1:Russian Ground Forces:2
+FoolsRoad_RAAS_v1:英国陆军:1
+FoolsRoad_RAAS_v1:俄罗斯陆军:2
+FoolsRoad_RAAS_v2:British Armed Forces:1
+FoolsRoad_RAAS_v2:Russian Ground Forces:2
+FoolsRoad_RAAS_v2:英国陆军:1
+FoolsRoad_RAAS_v2:俄罗斯陆军:2
+FoolsRoad_RAAS_v3:British Armed Forces:1
+FoolsRoad_RAAS_v3:Irregular Militia Forces:2
+FoolsRoad_RAAS_v3:英国陆军:1
+FoolsRoad_RAAS_v3:非正规民兵:2
+FoolsRoad_RAAS_v4:Australian Defence Force:1
+FoolsRoad_RAAS_v4:Russian Ground Forces:2
+FoolsRoad_RAAS_v4:澳大利亚国防军:1
+FoolsRoad_RAAS_v4:俄罗斯陆军:2
+FoolsRoad_RAAS_v5:Canadian Armed Forces:1
+FoolsRoad_RAAS_v5:Russian Ground Forces:2
+FoolsRoad_RAAS_v5:加拿大军队:1
+FoolsRoad_RAAS_v5:俄罗斯陆军:2
+FoolsRoad_Skirmish_v1:United States Army:1
+FoolsRoad_Skirmish_v1:Russian Ground Forces:2
+FoolsRoad_Skirmish_v1:美国陆军:1
+FoolsRoad_Skirmish_v1:俄罗斯陆军:2
+FoolsRoad_Skirmish_v2:United States Army:1
+FoolsRoad_Skirmish_v2:Russian Ground Forces:2
+FoolsRoad_Skirmish_v2:美国陆军:1
+FoolsRoad_Skirmish_v2:俄罗斯陆军:2
+FoolsRoad_TC_v1:Russian Ground Forces:1
+FoolsRoad_TC_v1:Irregular Militia Forces:2
+FoolsRoad_TC_v1:俄罗斯陆军:1
+FoolsRoad_TC_v1:非正规民兵:2
+GooseBay_AAS_v1:Canadian Armed Forces:1
+GooseBay_AAS_v1:Russian Ground Forces:2
+GooseBay_AAS_v1:加拿大军队:1
+GooseBay_AAS_v1:俄罗斯陆军:2
+GooseBay_AAS_v2:Canadian Armed Forces:1
+GooseBay_AAS_v2:Russian Airborne Forces:2
+GooseBay_AAS_v2:加拿大军队:1
+GooseBay_AAS_v2:俄罗斯空降军:2
+GooseBay_Invasion_v1:Canadian Armed Forces:1
+GooseBay_Invasion_v1:Russian Ground Forces:2
+GooseBay_Invasion_v1:加拿大军队:1
+GooseBay_Invasion_v1:俄罗斯陆军:2
+GooseBay_Invasion_v2:Canadian Armed Forces:1
+GooseBay_Invasion_v2:Irregular Militia Forces:2
+GooseBay_Invasion_v2:加拿大军队:1
+GooseBay_Invasion_v2:非正规民兵:2
+GooseBay_Invasion_v3:United States Army:1
+GooseBay_Invasion_v3:PLA Navy Marine Corps:2
+GooseBay_Invasion_v3:美国陆军:1
+GooseBay_Invasion_v3:中国人民解放军海军陆战队:2
+GooseBay_Invasion_v4:United States Marine Corps:1
+GooseBay_Invasion_v4:Russian Airborne Forces:2
+GooseBay_Invasion_v4:美国海军陆战队:1
+GooseBay_Invasion_v4:俄罗斯空降军:2
+GooseBay_Invasion_v5:Canadian Armed Forces:1
+GooseBay_Invasion_v5:People's Liberation Army:2
+GooseBay_Invasion_v5:加拿大军队:1
+GooseBay_Invasion_v5:中国人民解放军:2
+GooseBay_RAAS_v1:Canadian Armed Forces:1
+GooseBay_RAAS_v1:Russian Airborne Forces:2
+GooseBay_RAAS_v1:加拿大军队:1
+GooseBay_RAAS_v1:俄罗斯空降军:2
+GooseBay_RAAS_v2:United States Army:1
+GooseBay_RAAS_v2:People's Liberation Army:2
+GooseBay_RAAS_v2:美国陆军:1
+GooseBay_RAAS_v2:中国人民解放军:2
+GooseBay_RAAS_v3:United States Marine Corps:1
+GooseBay_RAAS_v3:Russian Ground Forces:2
+GooseBay_RAAS_v3:美国海军陆战队:1
+GooseBay_RAAS_v3:俄罗斯陆军:2
+GooseBay_RAAS_v4:Canadian Armed Forces:1
+GooseBay_RAAS_v4:People's Liberation Army:2
+GooseBay_RAAS_v4:加拿大军队:1
+GooseBay_RAAS_v4:中国人民解放军:2
+GooseBay_Seed_v1:United States Marine Corps:1
+GooseBay_Seed_v1:People's Liberation Army:2
+GooseBay_Seed_v1:美国海军陆战队:1
+GooseBay_Seed_v1:中国人民解放军:2
+GooseBay_Skirmish_v1:Canadian Armed Forces:1
+GooseBay_Skirmish_v1:PLA Navy Marine Corps:2
+GooseBay_Skirmish_v1:加拿大军队:1
+GooseBay_Skirmish_v1:中国人民解放军海军陆战队:2
+Gorodok_AAS_v1:United States Army:1
+Gorodok_AAS_v1:Russian Ground Forces:2
+Gorodok_AAS_v1:美国陆军:1
+Gorodok_AAS_v1:俄罗斯陆军:2
+Gorodok_AAS_v2:British Armed Forces:1
+Gorodok_AAS_v2:Russian Ground Forces:2
+Gorodok_AAS_v2:英国陆军:1
+Gorodok_AAS_v2:俄罗斯陆军:2
+Gorodok_AAS_v3:Canadian Armed Forces:1
+Gorodok_AAS_v3:Russian Airborne Forces:2
+Gorodok_AAS_v3:加拿大军队:1
+Gorodok_AAS_v3:俄罗斯空降军:2
+Gorodok_AAS_v4:United States Marine Corps:1
+Gorodok_AAS_v4:Russian Airborne Forces:2
+Gorodok_AAS_v4:美国海军陆战队:1
+Gorodok_AAS_v4:俄罗斯空降军:2
+Gorodok_Destruction_v1:United States Army:1
+Gorodok_Destruction_v1:Russian Ground Forces:2
+Gorodok_Destruction_v1:美国陆军:1
+Gorodok_Destruction_v1:俄罗斯陆军:2
+Gorodok_Insurgency_v1:Russian Ground Forces:1
+Gorodok_Insurgency_v1:Irregular Militia Forces:2
+Gorodok_Insurgency_v1:俄罗斯陆军:1
+Gorodok_Insurgency_v1:非正规民兵:2
+Gorodok_Invasion_v1:United States Army:1
+Gorodok_Invasion_v1:Russian Ground Forces:2
+Gorodok_Invasion_v1:美国陆军:1
+Gorodok_Invasion_v1:俄罗斯陆军:2
+Gorodok_Invasion_v2:Russian Airborne Forces:1
+Gorodok_Invasion_v2:Irregular Militia Forces:2
+Gorodok_Invasion_v2:俄罗斯空降军:1
+Gorodok_Invasion_v2:非正规民兵:2
+Gorodok_Invasion_v3:Canadian Armed Forces:1
+Gorodok_Invasion_v3:Irregular Militia Forces:2
+Gorodok_Invasion_v3:加拿大军队:1
+Gorodok_Invasion_v3:非正规民兵:2
+Gorodok_RAAS_v01:United States Army:1
+Gorodok_RAAS_v01:Russian Ground Forces:2
+Gorodok_RAAS_v01:美国陆军:1
+Gorodok_RAAS_v01:俄罗斯陆军:2
+Gorodok_RAAS_v02:British Armed Forces:1
+Gorodok_RAAS_v02:Irregular Militia Forces:2
+Gorodok_RAAS_v02:英国陆军:1
+Gorodok_RAAS_v02:非正规民兵:2
+Gorodok_RAAS_v03:United States Army:1
+Gorodok_RAAS_v03:Russian Airborne Forces:2
+Gorodok_RAAS_v03:美国陆军:1
+Gorodok_RAAS_v03:俄罗斯空降军:2
+Gorodok_RAAS_v04:United States Army:1
+Gorodok_RAAS_v04:Russian Ground Forces:2
+Gorodok_RAAS_v04:美国陆军:1
+Gorodok_RAAS_v04:俄罗斯陆军:2
+Gorodok_RAAS_v05:United States Army:1
+Gorodok_RAAS_v05:Russian Ground Forces:2
+Gorodok_RAAS_v05:美国陆军:1
+Gorodok_RAAS_v05:俄罗斯陆军:2
+Gorodok_RAAS_v06:United States Marine Corps:1
+Gorodok_RAAS_v06:People's Liberation Army:2
+Gorodok_RAAS_v06:美国海军陆战队:1
+Gorodok_RAAS_v06:中国人民解放军:2
+Gorodok_RAAS_v07:Australian Defence Force:1
+Gorodok_RAAS_v07:Russian Ground Forces:2
+Gorodok_RAAS_v07:澳大利亚国防军:1
+Gorodok_RAAS_v07:俄罗斯陆军:2
+Gorodok_RAAS_v08:United States Marine Corps:1
+Gorodok_RAAS_v08:Irregular Militia Forces:2
+Gorodok_RAAS_v08:美国海军陆战队:1
+Gorodok_RAAS_v08:非正规民兵:2
+Gorodok_RAAS_v09:Canadian Armed Forces:1
+Gorodok_RAAS_v09:Russian Ground Forces:2
+Gorodok_RAAS_v09:加拿大军队:1
+Gorodok_RAAS_v09:俄罗斯陆军:2
+Gorodok_RAAS_v10:Canadian Armed Forces:1
+Gorodok_RAAS_v10:Irregular Militia Forces:2
+Gorodok_RAAS_v10:加拿大军队:1
+Gorodok_RAAS_v10:非正规民兵:2
+Gorodok_RAAS_v11:Canadian Armed Forces:1
+Gorodok_RAAS_v11:United States Army:2
+Gorodok_RAAS_v11:加拿大军队:1
+Gorodok_RAAS_v11:美国陆军:2
+Gorodok_RAAS_v12:United States Army:1
+Gorodok_RAAS_v12:People's Liberation Army:2
+Gorodok_RAAS_v12:美国陆军:1
+Gorodok_RAAS_v12:中国人民解放军:2
+Gorodok_Skirmish_v1:British Armed Forces:1
+Gorodok_Skirmish_v1:Russian Ground Forces:2
+Gorodok_Skirmish_v1:英国陆军:1
+Gorodok_Skirmish_v1:俄罗斯陆军:2
+Gorodok_TC_v1:United States Army:1
+Gorodok_TC_v1:Russian Ground Forces:2
+Gorodok_TC_v1:美国陆军:1
+Gorodok_TC_v1:俄罗斯陆军:2
+Gorodok_TC_v2:Canadian Armed Forces:1
+Gorodok_TC_v2:Russian Ground Forces:2
+Gorodok_TC_v2:加拿大军队:1
+Gorodok_TC_v2:俄罗斯陆军:2
+Harju_AAS_v1:United States Marine Corps:1
+Harju_AAS_v1:Russian Airborne Forces:2
+Harju_AAS_v1:美国海军陆战队:1
+Harju_AAS_v1:俄罗斯空降军:2
+Harju_AAS_v2:United States Army:1
+Harju_AAS_v2:Russian Ground Forces:2
+Harju_AAS_v2:美国陆军:1
+Harju_AAS_v2:俄罗斯陆军:2
+Harju_AAS_v3:British Armed Forces:1
+Harju_AAS_v3:Irregular Militia Forces:2
+Harju_AAS_v3:英国陆军:1
+Harju_AAS_v3:非正规民兵:2
+Harju_Invasion_v1:United States Marine Corps:1
+Harju_Invasion_v1:Russian Ground Forces:2
+Harju_Invasion_v1:美国海军陆战队:1
+Harju_Invasion_v1:俄罗斯陆军:2
+Harju_Invasion_v2:Russian Ground Forces:1
+Harju_Invasion_v2:Irregular Militia Forces:2
+Harju_Invasion_v2:俄罗斯陆军:1
+Harju_Invasion_v2:非正规民兵:2
+Harju_Invasion_v3:British Armed Forces:1
+Harju_Invasion_v3:Irregular Militia Forces:2
+Harju_Invasion_v3:英国陆军:1
+Harju_Invasion_v3:非正规民兵:2
+Harju_Invasion_v4:Canadian Armed Forces:1
+Harju_Invasion_v4:PLA Navy Marine Corps:2
+Harju_Invasion_v4:加拿大军队:1
+Harju_Invasion_v4:中国人民解放军海军陆战队:2
+Harju_Invasion_v5:British Armed Forces:1
+Harju_Invasion_v5:People's Liberation Army:2
+Harju_Invasion_v5:英国陆军:1
+Harju_Invasion_v5:中国人民解放军:2
+Harju_RAAS_v1:United States Marine Corps:1
+Harju_RAAS_v1:Russian Ground Forces:2
+Harju_RAAS_v1:美国海军陆战队:1
+Harju_RAAS_v1:俄罗斯陆军:2
+Harju_RAAS_v2:British Armed Forces:1
+Harju_RAAS_v2:Russian Ground Forces:2
+Harju_RAAS_v2:英国陆军:1
+Harju_RAAS_v2:俄罗斯陆军:2
+Harju_RAAS_v3:United States Army:1
+Harju_RAAS_v3:Russian Ground Forces:2
+Harju_RAAS_v3:美国陆军:1
+Harju_RAAS_v3:俄罗斯陆军:2
+Harju_RAAS_v4:Canadian Armed Forces:1
+Harju_RAAS_v4:People's Liberation Army:2
+Harju_RAAS_v4:加拿大军队:1
+Harju_RAAS_v4:中国人民解放军:2
+Harju_RAAS_v5:Russian Ground Forces:1
+Harju_RAAS_v5:Irregular Militia Forces:2
+Harju_RAAS_v5:俄罗斯陆军:1
+Harju_RAAS_v5:非正规民兵:2
+Harju_RAAS_v6:United States Army:1
+Harju_RAAS_v6:People's Liberation Army:2
+Harju_RAAS_v6:美国陆军:1
+Harju_RAAS_v6:中国人民解放军:2
+Harju_Seed_v1:United States Marine Corps:1
+Harju_Seed_v1:Russian Airborne Forces:2
+Harju_Seed_v1:美国海军陆战队:1
+Harju_Seed_v1:俄罗斯空降军:2
+Harju_Skirmish_v1:United States Marine Corps:1
+Harju_Skirmish_v1:Russian Ground Forces:2
+Harju_Skirmish_v1:美国海军陆战队:1
+Harju_Skirmish_v1:俄罗斯陆军:2
+Harju_Skirmish_v2:Canadian Armed Forces:1
+Harju_Skirmish_v2:Russian Ground Forces:2
+Harju_Skirmish_v2:加拿大军队:1
+Harju_Skirmish_v2:俄罗斯陆军:2
+JensensRange_Training_ADF-PLA:People's Liberation Army:2
+JensensRange_Training_ADF-PLA:中国人民解放军:2
+JensensRange_Training_BAF-IMF:Irregular Militia Forces:2
+JensensRange_Training_BAF-IMF:非正规民兵:2
+JensensRange_Training_CAF-INS:Insurgent Forces:2
+JensensRange_Training_CAF-INS:叛乱军队:2
+JensensRange_Training_PLANMC-VDV:Russian Airborne Forces:2
+JensensRange_Training_PLANMC-VDV:俄罗斯空降军:2
+JensensRange_Training_USA-RGF:Russian Ground Forces:2
+JensensRange_Training_USA-RGF:俄罗斯陆军:2
+JensensRange_Training_USMC-MEA:Middle Eastern Alliance:2
+JensensRange_Training_USMC-MEA:中东联军:2
+Kamdesh_AAS_v1:Australian Defence Force:1
+Kamdesh_AAS_v1:Russian Ground Forces:2
+Kamdesh_AAS_v1:澳大利亚国防军:1
+Kamdesh_AAS_v1:俄罗斯陆军:2
+Kamdesh_Insurgency_v1:Australian Defence Force:1
+Kamdesh_Insurgency_v1:Insurgent Forces:2
+Kamdesh_Insurgency_v1:澳大利亚国防军:1
+Kamdesh_Insurgency_v1:叛乱军队:2
+Kamdesh_Insurgency_v2:British Armed Forces:1
+Kamdesh_Insurgency_v2:Insurgent Forces:2
+Kamdesh_Insurgency_v2:英国陆军:1
+Kamdesh_Insurgency_v2:叛乱军队:2
+Kamdesh_Invasion_v1:United States Army:1
+Kamdesh_Invasion_v1:Insurgent Forces:2
+Kamdesh_Invasion_v1:美国陆军:1
+Kamdesh_Invasion_v1:叛乱军队:2
+Kamdesh_Invasion_v2:British Armed Forces:1
+Kamdesh_Invasion_v2:Insurgent Forces:2
+Kamdesh_Invasion_v2:英国陆军:1
+Kamdesh_Invasion_v2:叛乱军队:2
+Kamdesh_Invasion_v3:United States Army:1
+Kamdesh_Invasion_v3:Insurgent Forces:2
+Kamdesh_Invasion_v3:美国陆军:1
+Kamdesh_Invasion_v3:叛乱军队:2
+Kamdesh_Invasion_v4:Australian Defence Force:1
+Kamdesh_Invasion_v4:Insurgent Forces:2
+Kamdesh_Invasion_v4:澳大利亚国防军:1
+Kamdesh_Invasion_v4:叛乱军队:2
+Kamdesh_Invasion_v5:Australian Defence Force:1
+Kamdesh_Invasion_v5:Insurgent Forces:2
+Kamdesh_Invasion_v5:澳大利亚国防军:1
+Kamdesh_Invasion_v5:叛乱军队:2
+Kamdesh_Invasion_v6:Australian Defence Force:1
+Kamdesh_Invasion_v6:Middle Eastern Alliance:2
+Kamdesh_Invasion_v6:澳大利亚国防军:1
+Kamdesh_Invasion_v6:中东联军:2
+Kamdesh_Invasion_v7:Canadian Armed Forces:1
+Kamdesh_Invasion_v7:Insurgent Forces:2
+Kamdesh_Invasion_v7:加拿大军队:1
+Kamdesh_Invasion_v7:叛乱军队:2
+Kamdesh_RAAS_v1:Irregular Militia Forces:1
+Kamdesh_RAAS_v1:Insurgent Forces:2
+Kamdesh_RAAS_v1:非正规民兵:1
+Kamdesh_RAAS_v1:叛乱军队:2
+Kamdesh_RAAS_v2:British Armed Forces:1
+Kamdesh_RAAS_v2:Russian Ground Forces:2
+Kamdesh_RAAS_v2:英国陆军:1
+Kamdesh_RAAS_v2:俄罗斯陆军:2
+Kamdesh_RAAS_v3:United States Army:1
+Kamdesh_RAAS_v3:Middle Eastern Alliance:2
+Kamdesh_RAAS_v3:美国陆军:1
+Kamdesh_RAAS_v3:中东联军:2
+Kamdesh_RAAS_v4:British Armed Forces:1
+Kamdesh_RAAS_v4:Middle Eastern Alliance:2
+Kamdesh_RAAS_v4:英国陆军:1
+Kamdesh_RAAS_v4:中东联军:2
+Kamdesh_RAAS_v5:Australian Defence Force:1
+Kamdesh_RAAS_v5:Middle Eastern Alliance:2
+Kamdesh_RAAS_v5:澳大利亚国防军:1
+Kamdesh_RAAS_v5:中东联军:2
+Kamdesh_RAAS_v6:Australian Defence Force:1
+Kamdesh_RAAS_v6:Russian Ground Forces:2
+Kamdesh_RAAS_v6:澳大利亚国防军:1
+Kamdesh_RAAS_v6:俄罗斯陆军:2
+Kamdesh_RAAS_v7:Canadian Armed Forces:1
+Kamdesh_RAAS_v7:Insurgent Forces:2
+Kamdesh_RAAS_v7:加拿大军队:1
+Kamdesh_RAAS_v7:叛乱军队:2
+Kamdesh_Skirmish_v1:Australian Defence Force:1
+Kamdesh_Skirmish_v1:British Armed Forces:2
+Kamdesh_Skirmish_v1:澳大利亚国防军:1
+Kamdesh_Skirmish_v1:英国陆军:2
+Kamdesh_TC_v1:British Armed Forces:1
+Kamdesh_TC_v1:Russian Ground Forces:2
+Kamdesh_TC_v1:英国陆军:1
+Kamdesh_TC_v1:俄罗斯陆军:2
+Kamdesh_TC_v2:Irregular Militia Forces:1
+Kamdesh_TC_v2:Insurgent Forces:2
+Kamdesh_TC_v2:非正规民兵:1
+Kamdesh_TC_v2:叛乱军队:2
+Kamdesh_TC_v3:Australian Defence Force:1
+Kamdesh_TC_v3:Russian Ground Forces:2
+Kamdesh_TC_v3:澳大利亚国防军:1
+Kamdesh_TC_v3:俄罗斯陆军:2
+Kamdesh_TC_v4:Canadian Armed Forces:1
+Kamdesh_TC_v4:Insurgent Forces:2
+Kamdesh_TC_v4:加拿大军队:1
+Kamdesh_TC_v4:叛乱军队:2
+Kohat_AAS_v1:United States Army:1
+Kohat_AAS_v1:People's Liberation Army:2
+Kohat_AAS_v1:美国陆军:1
+Kohat_AAS_v1:中国人民解放军:2
+Kohat_AAS_v2:United States Army:1
+Kohat_AAS_v2:Russian Ground Forces:2
+Kohat_AAS_v2:美国陆军:1
+Kohat_AAS_v2:俄罗斯陆军:2
+Kohat_AAS_v3:Australian Defence Force:1
+Kohat_AAS_v3:Russian Ground Forces:2
+Kohat_AAS_v3:澳大利亚国防军:1
+Kohat_AAS_v3:俄罗斯陆军:2
+Kohat_Insurgency_v1:United States Army:1
+Kohat_Insurgency_v1:Insurgent Forces:2
+Kohat_Insurgency_v1:美国陆军:1
+Kohat_Insurgency_v1:叛乱军队:2
+Kohat_Invasion_v1:United States Army:1
+Kohat_Invasion_v1:Insurgent Forces:2
+Kohat_Invasion_v1:美国陆军:1
+Kohat_Invasion_v1:叛乱军队:2
+Kohat_Invasion_v2:United States Army:1
+Kohat_Invasion_v2:Insurgent Forces:2
+Kohat_Invasion_v2:美国陆军:1
+Kohat_Invasion_v2:叛乱军队:2
+Kohat_Invasion_v3:Canadian Armed Forces:1
+Kohat_Invasion_v3:Insurgent Forces:2
+Kohat_Invasion_v3:加拿大军队:1
+Kohat_Invasion_v3:叛乱军队:2
+Kohat_Invasion_v4:United States Marine Corps:1
+Kohat_Invasion_v4:People's Liberation Army:2
+Kohat_Invasion_v4:美国海军陆战队:1
+Kohat_Invasion_v4:中国人民解放军:2
+Kohat_RAAS_v01:United States Army:1
+Kohat_RAAS_v01:Russian Ground Forces:2
+Kohat_RAAS_v01:美国陆军:1
+Kohat_RAAS_v01:俄罗斯陆军:2
+Kohat_RAAS_v02:United States Marine Corps:1
+Kohat_RAAS_v02:Russian Ground Forces:2
+Kohat_RAAS_v02:美国海军陆战队:1
+Kohat_RAAS_v02:俄罗斯陆军:2
+Kohat_RAAS_v03:Russian Ground Forces:1
+Kohat_RAAS_v03:Middle Eastern Alliance:2
+Kohat_RAAS_v03:俄罗斯陆军:1
+Kohat_RAAS_v03:中东联军:2
+Kohat_RAAS_v04:British Armed Forces:1
+Kohat_RAAS_v04:Russian Ground Forces:2
+Kohat_RAAS_v04:英国陆军:1
+Kohat_RAAS_v04:俄罗斯陆军:2
+Kohat_RAAS_v05:United States Army:1
+Kohat_RAAS_v05:Russian Ground Forces:2
+Kohat_RAAS_v05:美国陆军:1
+Kohat_RAAS_v05:俄罗斯陆军:2
+Kohat_RAAS_v06:British Armed Forces:1
+Kohat_RAAS_v06:Russian Ground Forces:2
+Kohat_RAAS_v06:英国陆军:1
+Kohat_RAAS_v06:俄罗斯陆军:2
+Kohat_RAAS_v07:Russian Ground Forces:1
+Kohat_RAAS_v07:Middle Eastern Alliance:2
+Kohat_RAAS_v07:俄罗斯陆军:1
+Kohat_RAAS_v07:中东联军:2
+Kohat_RAAS_v08:Australian Defence Force:1
+Kohat_RAAS_v08:Russian Ground Forces:2
+Kohat_RAAS_v08:澳大利亚国防军:1
+Kohat_RAAS_v08:俄罗斯陆军:2
+Kohat_RAAS_v09:Canadian Armed Forces:1
+Kohat_RAAS_v09:Insurgent Forces:2
+Kohat_RAAS_v09:加拿大军队:1
+Kohat_RAAS_v09:叛乱军队:2
+Kohat_RAAS_v10:Australian Defence Force:1
+Kohat_RAAS_v10:People's Liberation Army:2
+Kohat_RAAS_v10:澳大利亚国防军:1
+Kohat_RAAS_v10:中国人民解放军:2
+Kohat_Skirmish_v1:United States Army:1
+Kohat_Skirmish_v1:British Armed Forces:2
+Kohat_Skirmish_v1:美国陆军:1
+Kohat_Skirmish_v1:英国陆军:2
+Kohat_TC_v1:Russian Ground Forces:1
+Kohat_TC_v1:Middle Eastern Alliance:2
+Kohat_TC_v1:俄罗斯陆军:1
+Kohat_TC_v1:中东联军:2
+Kokan_AAS_v1:United States Army:1
+Kokan_AAS_v1:People's Liberation Army:2
+Kokan_AAS_v1:美国陆军:1
+Kokan_AAS_v1:中国人民解放军:2
+Kokan_AAS_v2:British Armed Forces:1
+Kokan_AAS_v2:Middle Eastern Alliance:2
+Kokan_AAS_v2:英国陆军:1
+Kokan_AAS_v2:中东联军:2
+Kokan_AAS_v3:Australian Defence Force:1
+Kokan_AAS_v3:Russian Ground Forces:2
+Kokan_AAS_v3:澳大利亚国防军:1
+Kokan_AAS_v3:俄罗斯陆军:2
+Kokan_Insurgency_v1:United States Army:1
+Kokan_Insurgency_v1:Insurgent Forces:2
+Kokan_Insurgency_v1:美国陆军:1
+Kokan_Insurgency_v1:叛乱军队:2
+Kokan_Invasion_v1:Russian Ground Forces:1
+Kokan_Invasion_v1:Insurgent Forces:2
+Kokan_Invasion_v1:俄罗斯陆军:1
+Kokan_Invasion_v1:叛乱军队:2
+Kokan_RAAS_v1:United States Army:1
+Kokan_RAAS_v1:Middle Eastern Alliance:2
+Kokan_RAAS_v1:美国陆军:1
+Kokan_RAAS_v1:中东联军:2
+Kokan_RAAS_v2:Russian Ground Forces:1
+Kokan_RAAS_v2:Middle Eastern Alliance:2
+Kokan_RAAS_v2:俄罗斯陆军:1
+Kokan_RAAS_v2:中东联军:2
+Kokan_RAAS_v3:Australian Defence Force:1
+Kokan_RAAS_v3:Russian Ground Forces:2
+Kokan_RAAS_v3:澳大利亚国防军:1
+Kokan_RAAS_v3:俄罗斯陆军:2
+Kokan_RAAS_v4:Canadian Armed Forces:1
+Kokan_RAAS_v4:Middle Eastern Alliance:2
+Kokan_RAAS_v4:加拿大军队:1
+Kokan_RAAS_v4:中东联军:2
+Kokan_Skirmish_v1:Irregular Militia Forces:1
+Kokan_Skirmish_v1:Insurgent Forces:2
+Kokan_Skirmish_v1:非正规民兵:1
+Kokan_Skirmish_v1:叛乱军队:2
+Kokan_TC_v1:United States Army:1
+Kokan_TC_v1:Middle Eastern Alliance:2
+Kokan_TC_v1:美国陆军:1
+Kokan_TC_v1:中东联军:2
+Lashkar_AAS_v1:British Armed Forces:1
+Lashkar_AAS_v1:Russian Ground Forces:2
+Lashkar_AAS_v1:英国陆军:1
+Lashkar_AAS_v1:俄罗斯陆军:2
+Lashkar_AAS_v2:United States Army:1
+Lashkar_AAS_v2:Middle Eastern Alliance:2
+Lashkar_AAS_v2:美国陆军:1
+Lashkar_AAS_v2:中东联军:2
+Lashkar_AAS_v3:Australian Defence Force:1
+Lashkar_AAS_v3:Russian Ground Forces:2
+Lashkar_AAS_v3:澳大利亚国防军:1
+Lashkar_AAS_v3:俄罗斯陆军:2
+Lashkar_AAS_v4:Australian Defence Force:1
+Lashkar_AAS_v4:Middle Eastern Alliance:2
+Lashkar_AAS_v4:澳大利亚国防军:1
+Lashkar_AAS_v4:中东联军:2
+Lashkar_Insurgency_v1:United States Army:1
+Lashkar_Insurgency_v1:Insurgent Forces:2
+Lashkar_Insurgency_v1:美国陆军:1
+Lashkar_Insurgency_v1:叛乱军队:2
+Lashkar_Invasion_v1:United States Army:1
+Lashkar_Invasion_v1:Insurgent Forces:2
+Lashkar_Invasion_v1:美国陆军:1
+Lashkar_Invasion_v1:叛乱军队:2
+Lashkar_Invasion_v2:Australian Defence Force:1
+Lashkar_Invasion_v2:Insurgent Forces:2
+Lashkar_Invasion_v2:澳大利亚国防军:1
+Lashkar_Invasion_v2:叛乱军队:2
+Lashkar_Invasion_v3:Canadian Armed Forces:1
+Lashkar_Invasion_v3:Insurgent Forces:2
+Lashkar_Invasion_v3:加拿大军队:1
+Lashkar_Invasion_v3:叛乱军队:2
+Lashkar_Invasion_v4:United States Army:1
+Lashkar_Invasion_v4:People's Liberation Army:2
+Lashkar_Invasion_v4:美国陆军:1
+Lashkar_Invasion_v4:中国人民解放军:2
+Lashkar_RAAS_v1:United States Army:1
+Lashkar_RAAS_v1:Middle Eastern Alliance:2
+Lashkar_RAAS_v1:美国陆军:1
+Lashkar_RAAS_v1:中东联军:2
+Lashkar_RAAS_v2:Australian Defence Force:1
+Lashkar_RAAS_v2:Russian Ground Forces:2
+Lashkar_RAAS_v2:澳大利亚国防军:1
+Lashkar_RAAS_v2:俄罗斯陆军:2
+Lashkar_RAAS_v3:Australian Defence Force:1
+Lashkar_RAAS_v3:Middle Eastern Alliance:2
+Lashkar_RAAS_v3:澳大利亚国防军:1
+Lashkar_RAAS_v3:中东联军:2
+Lashkar_RAAS_v4:Canadian Armed Forces:1
+Lashkar_RAAS_v4:Insurgent Forces:2
+Lashkar_RAAS_v4:加拿大军队:1
+Lashkar_RAAS_v4:叛乱军队:2
+Lashkar_RAAS_v5:United States Marine Corps:1
+Lashkar_RAAS_v5:Insurgent Forces:2
+Lashkar_RAAS_v5:美国海军陆战队:1
+Lashkar_RAAS_v5:叛乱军队:2
+Lashkar_Skirmish_v1:Australian Defence Force:1
+Lashkar_Skirmish_v1:Insurgent Forces:2
+Lashkar_Skirmish_v1:澳大利亚国防军:1
+Lashkar_Skirmish_v1:叛乱军队:2
+Lashkar_TC_v1:British Armed Forces:1
+Lashkar_TC_v1:Middle Eastern Alliance:2
+Lashkar_TC_v1:英国陆军:1
+Lashkar_TC_v1:中东联军:2
+Lashkar_TC_v2:United States Army:1
+Lashkar_TC_v2:Middle Eastern Alliance:2
+Lashkar_TC_v2:美国陆军:1
+Lashkar_TC_v2:中东联军:2
+Lashkar_TC_v3:British Armed Forces:1
+Lashkar_TC_v3:Russian Ground Forces:2
+Lashkar_TC_v3:英国陆军:1
+Lashkar_TC_v3:俄罗斯陆军:2
+Lashkar_TC_v4:Australian Defence Force:1
+Lashkar_TC_v4:Russian Ground Forces:2
+Lashkar_TC_v4:澳大利亚国防军:1
+Lashkar_TC_v4:俄罗斯陆军:2
+Lashkar_TC_v5:Canadian Armed Forces:1
+Lashkar_TC_v5:Insurgent Forces:2
+Lashkar_TC_v5:加拿大军队:1
+Lashkar_TC_v5:叛乱军队:2
+Logar_AAS_v1:United States Army:1
+Logar_AAS_v1:People's Liberation Army:2
+Logar_AAS_v1:美国陆军:1
+Logar_AAS_v1:中国人民解放军:2
+Logar_AAS_v2:United States Army:1
+Logar_AAS_v2:Middle Eastern Alliance:2
+Logar_AAS_v2:美国陆军:1
+Logar_AAS_v2:中东联军:2
+Logar_AAS_v3:Australian Defence Force:1
+Logar_AAS_v3:Russian Ground Forces:2
+Logar_AAS_v3:澳大利亚国防军:1
+Logar_AAS_v3:俄罗斯陆军:2
+Logar_Insurgency_v1:Russian Ground Forces:1
+Logar_Insurgency_v1:Insurgent Forces:2
+Logar_Insurgency_v1:俄罗斯陆军:1
+Logar_Insurgency_v1:叛乱军队:2
+Logar_RAAS_v1:Russian Ground Forces:1
+Logar_RAAS_v1:Middle Eastern Alliance:2
+Logar_RAAS_v1:俄罗斯陆军:1
+Logar_RAAS_v1:中东联军:2
+Logar_RAAS_v2:Canadian Armed Forces:1
+Logar_RAAS_v2:Middle Eastern Alliance:2
+Logar_RAAS_v2:加拿大军队:1
+Logar_RAAS_v2:中东联军:2
+Logar_Seed_v1:United States Marine Corps:1
+Logar_Seed_v1:Russian Airborne Forces:2
+Logar_Seed_v1:美国海军陆战队:1
+Logar_Seed_v1:俄罗斯空降军:2
+Logar_Skirmish_v1:United States Army:1
+Logar_Skirmish_v1:Middle Eastern Alliance:2
+Logar_Skirmish_v1:美国陆军:1
+Logar_Skirmish_v1:中东联军:2
+Logar_TC_v1:United States Army:1
+Logar_TC_v1:Middle Eastern Alliance:2
+Logar_TC_v1:美国陆军:1
+Logar_TC_v1:中东联军:2
+Manicouagan_AAS_v1:Canadian Armed Forces:1
+Manicouagan_AAS_v1:Russian Ground Forces:2
+Manicouagan_AAS_v1:加拿大军队:1
+Manicouagan_AAS_v1:俄罗斯陆军:2
+Manicouagan_AAS_v2:United States Marine Corps:1
+Manicouagan_AAS_v2:Russian Ground Forces:2
+Manicouagan_AAS_v2:美国海军陆战队:1
+Manicouagan_AAS_v2:俄罗斯陆军:2
+Manicouagan_AAS_v3:United States Army:1
+Manicouagan_AAS_v3:Russian Ground Forces:2
+Manicouagan_AAS_v3:美国陆军:1
+Manicouagan_AAS_v3:俄罗斯陆军:2
+Manicouagan_AAS_v4:United States Marine Corps:1
+Manicouagan_AAS_v4:People's Liberation Army:2
+Manicouagan_AAS_v4:美国海军陆战队:1
+Manicouagan_AAS_v4:中国人民解放军:2
+Manicouagan_AAS_v5:United States Army:1
+Manicouagan_AAS_v5:Russian Airborne Forces:2
+Manicouagan_AAS_v5:美国陆军:1
+Manicouagan_AAS_v5:俄罗斯空降军:2
+Manicouagan_Invasion_v1:Canadian Armed Forces:1
+Manicouagan_Invasion_v1:Russian Ground Forces:2
+Manicouagan_Invasion_v1:加拿大军队:1
+Manicouagan_Invasion_v1:俄罗斯陆军:2
+Manicouagan_Invasion_v2:Canadian Armed Forces:1
+Manicouagan_Invasion_v2:Russian Ground Forces:2
+Manicouagan_Invasion_v2:加拿大军队:1
+Manicouagan_Invasion_v2:俄罗斯陆军:2
+Manicouagan_Invasion_v3:United States Army:1
+Manicouagan_Invasion_v3:Russian Ground Forces:2
+Manicouagan_Invasion_v3:美国陆军:1
+Manicouagan_Invasion_v3:俄罗斯陆军:2
+Manicouagan_Invasion_v4:United States Marine Corps:1
+Manicouagan_Invasion_v4:Russian Ground Forces:2
+Manicouagan_Invasion_v4:美国海军陆战队:1
+Manicouagan_Invasion_v4:俄罗斯陆军:2
+Manicouagan_Invasion_v5:United States Marine Corps:1
+Manicouagan_Invasion_v5:Russian Ground Forces:2
+Manicouagan_Invasion_v5:美国海军陆战队:1
+Manicouagan_Invasion_v5:俄罗斯陆军:2
+Manicouagan_Invasion_v6:Canadian Armed Forces:1
+Manicouagan_Invasion_v6:People's Liberation Army:2
+Manicouagan_Invasion_v6:加拿大军队:1
+Manicouagan_Invasion_v6:中国人民解放军:2
+Manicouagan_Invasion_v7:Canadian Armed Forces:1
+Manicouagan_Invasion_v7:Irregular Militia Forces:2
+Manicouagan_Invasion_v7:加拿大军队:1
+Manicouagan_Invasion_v7:非正规民兵:2
+Manicouagan_Invasion_v8:United States Army:1
+Manicouagan_Invasion_v8:Russian Airborne Forces:2
+Manicouagan_Invasion_v8:美国陆军:1
+Manicouagan_Invasion_v8:俄罗斯空降军:2
+Manicouagan_Invasion_v9:United States Marine Corps:1
+Manicouagan_Invasion_v9:PLA Navy Marine Corps:2
+Manicouagan_Invasion_v9:美国海军陆战队:1
+Manicouagan_Invasion_v9:中国人民解放军海军陆战队:2
+Manicouagan_RAAS_v01:Canadian Armed Forces:1
+Manicouagan_RAAS_v01:Russian Ground Forces:2
+Manicouagan_RAAS_v01:加拿大军队:1
+Manicouagan_RAAS_v01:俄罗斯陆军:2
+Manicouagan_RAAS_v02:United States Marine Corps:1
+Manicouagan_RAAS_v02:Russian Ground Forces:2
+Manicouagan_RAAS_v02:美国海军陆战队:1
+Manicouagan_RAAS_v02:俄罗斯陆军:2
+Manicouagan_RAAS_v03:United States Army:1
+Manicouagan_RAAS_v03:Russian Ground Forces:2
+Manicouagan_RAAS_v03:美国陆军:1
+Manicouagan_RAAS_v03:俄罗斯陆军:2
+Manicouagan_RAAS_v04:Canadian Armed Forces:1
+Manicouagan_RAAS_v04:People's Liberation Army:2
+Manicouagan_RAAS_v04:加拿大军队:1
+Manicouagan_RAAS_v04:中国人民解放军:2
+Manicouagan_RAAS_v05:United States Marine Corps:1
+Manicouagan_RAAS_v05:People's Liberation Army:2
+Manicouagan_RAAS_v05:美国海军陆战队:1
+Manicouagan_RAAS_v05:中国人民解放军:2
+Manicouagan_RAAS_v06:United States Army:1
+Manicouagan_RAAS_v06:People's Liberation Army:2
+Manicouagan_RAAS_v06:美国陆军:1
+Manicouagan_RAAS_v06:中国人民解放军:2
+Manicouagan_RAAS_v07:Canadian Armed Forces:1
+Manicouagan_RAAS_v07:Irregular Militia Forces:2
+Manicouagan_RAAS_v07:加拿大军队:1
+Manicouagan_RAAS_v07:非正规民兵:2
+Manicouagan_RAAS_v08:United States Army:1
+Manicouagan_RAAS_v08:Irregular Militia Forces:2
+Manicouagan_RAAS_v08:美国陆军:1
+Manicouagan_RAAS_v08:非正规民兵:2
+Manicouagan_RAAS_v09:Russian Ground Forces:1
+Manicouagan_RAAS_v09:Irregular Militia Forces:2
+Manicouagan_RAAS_v09:俄罗斯陆军:1
+Manicouagan_RAAS_v09:非正规民兵:2
+Manicouagan_RAAS_v10:Canadian Armed Forces:1
+Manicouagan_RAAS_v10:Russian Airborne Forces:2
+Manicouagan_RAAS_v10:加拿大军队:1
+Manicouagan_RAAS_v10:俄罗斯空降军:2
+Manicouagan_RAAS_v11:United States Army:1
+Manicouagan_RAAS_v11:Russian Airborne Forces:2
+Manicouagan_RAAS_v11:美国陆军:1
+Manicouagan_RAAS_v11:俄罗斯空降军:2
+Manicouagan_RAAS_v12:United States Marine Corps:1
+Manicouagan_RAAS_v12:Russian Airborne Forces:2
+Manicouagan_RAAS_v12:美国海军陆战队:1
+Manicouagan_RAAS_v12:俄罗斯空降军:2
+Manicouagan_RAAS_v13:Canadian Armed Forces:1
+Manicouagan_RAAS_v13:People's Liberation Army:2
+Manicouagan_RAAS_v13:加拿大军队:1
+Manicouagan_RAAS_v13:中国人民解放军:2
+Manicouagan_RAAS_v14:United States Army:1
+Manicouagan_RAAS_v14:People's Liberation Army:2
+Manicouagan_RAAS_v14:美国陆军:1
+Manicouagan_RAAS_v14:中国人民解放军:2
+Manicouagan_RAAS_v15:United States Marine Corps:1
+Manicouagan_RAAS_v15:People's Liberation Army:2
+Manicouagan_RAAS_v15:美国海军陆战队:1
+Manicouagan_RAAS_v15:中国人民解放军:2
+Manicouagan_Seed_v1:Canadian Armed Forces:1
+Manicouagan_Seed_v1:Irregular Militia Forces:2
+Manicouagan_Seed_v1:加拿大军队:1
+Manicouagan_Seed_v1:非正规民兵:2
+Manicouagan_Skirmish_v1:Canadian Armed Forces:1
+Manicouagan_Skirmish_v1:Russian Ground Forces:2
+Manicouagan_Skirmish_v1:加拿大军队:1
+Manicouagan_Skirmish_v1:俄罗斯陆军:2
+Manicouagan_Skirmish_v2:United States Marine Corps:1
+Manicouagan_Skirmish_v2:Russian Ground Forces:2
+Manicouagan_Skirmish_v2:美国海军陆战队:1
+Manicouagan_Skirmish_v2:俄罗斯陆军:2
+Manicouagan_Skirmish_v3:United States Army:1
+Manicouagan_Skirmish_v3:Russian Ground Forces:2
+Manicouagan_Skirmish_v3:美国陆军:1
+Manicouagan_Skirmish_v3:俄罗斯陆军:2
+Mestia_AAS_v1:Russian Ground Forces:1
+Mestia_AAS_v1:Irregular Militia Forces:2
+Mestia_AAS_v1:俄罗斯陆军:1
+Mestia_AAS_v1:非正规民兵:2
+Mestia_AAS_v2:United States Army:1
+Mestia_AAS_v2:Russian Ground Forces:2
+Mestia_AAS_v2:美国陆军:1
+Mestia_AAS_v2:俄罗斯陆军:2
+Mestia_Invasion_v1:Russian Ground Forces:1
+Mestia_Invasion_v1:Irregular Militia Forces:2
+Mestia_Invasion_v1:俄罗斯陆军:1
+Mestia_Invasion_v1:非正规民兵:2
+Mestia_Invasion_v2:United States Army:1
+Mestia_Invasion_v2:Irregular Militia Forces:2
+Mestia_Invasion_v2:美国陆军:1
+Mestia_Invasion_v2:非正规民兵:2
+Mestia_RAAS_v1:United States Army:1
+Mestia_RAAS_v1:Irregular Militia Forces:2
+Mestia_RAAS_v1:美国陆军:1
+Mestia_RAAS_v1:非正规民兵:2
+Mestia_RAAS_v2:Canadian Armed Forces:1
+Mestia_RAAS_v2:Russian Ground Forces:2
+Mestia_RAAS_v2:加拿大军队:1
+Mestia_RAAS_v2:俄罗斯陆军:2
+Mestia_Skirmish_v1:British Armed Forces:1
+Mestia_Skirmish_v1:Middle Eastern Alliance:2
+Mestia_Skirmish_v1:英国陆军:1
+Mestia_Skirmish_v1:中东联军:2
+Mestia_TC_v1:United States Army:1
+Mestia_TC_v1:Russian Ground Forces:2
+Mestia_TC_v1:美国陆军:1
+Mestia_TC_v1:俄罗斯陆军:2
+Mutaha_AAS_v1:United States Army:1
+Mutaha_AAS_v1:Russian Ground Forces:2
+Mutaha_AAS_v1:美国陆军:1
+Mutaha_AAS_v1:俄罗斯陆军:2
+Mutaha_AAS_v2:British Armed Forces:1
+Mutaha_AAS_v2:Russian Ground Forces:2
+Mutaha_AAS_v2:英国陆军:1
+Mutaha_AAS_v2:俄罗斯陆军:2
+Mutaha_AAS_v3:Australian Defence Force:1
+Mutaha_AAS_v3:Russian Ground Forces:2
+Mutaha_AAS_v3:澳大利亚国防军:1
+Mutaha_AAS_v3:俄罗斯陆军:2
+Mutaha_AAS_v4:Canadian Armed Forces:1
+Mutaha_AAS_v4:Russian Ground Forces:2
+Mutaha_AAS_v4:加拿大军队:1
+Mutaha_AAS_v4:俄罗斯陆军:2
+Mutaha_Invasion_v1:British Armed Forces:1
+Mutaha_Invasion_v1:Insurgent Forces:2
+Mutaha_Invasion_v1:英国陆军:1
+Mutaha_Invasion_v1:叛乱军队:2
+Mutaha_Invasion_v2:British Armed Forces:1
+Mutaha_Invasion_v2:Insurgent Forces:2
+Mutaha_Invasion_v2:英国陆军:1
+Mutaha_Invasion_v2:叛乱军队:2
+Mutaha_Invasion_v3:Australian Defence Force:1
+Mutaha_Invasion_v3:Insurgent Forces:2
+Mutaha_Invasion_v3:澳大利亚国防军:1
+Mutaha_Invasion_v3:叛乱军队:2
+Mutaha_Invasion_v4:Canadian Armed Forces:1
+Mutaha_Invasion_v4:Insurgent Forces:2
+Mutaha_Invasion_v4:加拿大军队:1
+Mutaha_Invasion_v4:叛乱军队:2
+Mutaha_RAAS_v1:United States Army:1
+Mutaha_RAAS_v1:Middle Eastern Alliance:2
+Mutaha_RAAS_v1:美国陆军:1
+Mutaha_RAAS_v1:中东联军:2
+Mutaha_RAAS_v2:Australian Defence Force:1
+Mutaha_RAAS_v2:Russian Ground Forces:2
+Mutaha_RAAS_v2:澳大利亚国防军:1
+Mutaha_RAAS_v2:俄罗斯陆军:2
+Mutaha_RAAS_v3:British Armed Forces:1
+Mutaha_RAAS_v3:Middle Eastern Alliance:2
+Mutaha_RAAS_v3:英国陆军:1
+Mutaha_RAAS_v3:中东联军:2
+Mutaha_RAAS_v4:Canadian Armed Forces:1
+Mutaha_RAAS_v4:Russian Airborne Forces:2
+Mutaha_RAAS_v4:加拿大军队:1
+Mutaha_RAAS_v4:俄罗斯空降军:2
+Mutaha_RAAS_v5:Canadian Armed Forces:1
+Mutaha_RAAS_v5:Middle Eastern Alliance:2
+Mutaha_RAAS_v5:加拿大军队:1
+Mutaha_RAAS_v5:中东联军:2
+Mutaha_RAAS_v6:United States Marine Corps:1
+Mutaha_RAAS_v6:Middle Eastern Alliance:2
+Mutaha_RAAS_v6:美国海军陆战队:1
+Mutaha_RAAS_v6:中东联军:2
+Mutaha_RAAS_v7:People's Liberation Army:1
+Mutaha_RAAS_v7:Russian Ground Forces:2
+Mutaha_RAAS_v7:中国人民解放军:1
+Mutaha_RAAS_v7:俄罗斯陆军:2
+Mutaha_Seed_v1:United States Marine Corps:1
+Mutaha_Seed_v1:Russian Airborne Forces:2
+Mutaha_Seed_v1:美国海军陆战队:1
+Mutaha_Seed_v1:俄罗斯空降军:2
+Mutaha_Skirmish_v1:United States Army:1
+Mutaha_Skirmish_v1:Middle Eastern Alliance:2
+Mutaha_Skirmish_v1:美国陆军:1
+Mutaha_Skirmish_v1:中东联军:2
+Mutaha_Tanks_v1:Middle Eastern Alliance:1
+Mutaha_Tanks_v1:People's Liberation Army:2
+Mutaha_Tanks_v1:中东联军:1
+Mutaha_Tanks_v1:中国人民解放军:2
+Mutaha_TC_v1:United States Army:1
+Mutaha_TC_v1:Russian Ground Forces:2
+Mutaha_TC_v1:美国陆军:1
+Mutaha_TC_v1:俄罗斯陆军:2
+Mutaha_TC_v2:United States Army:1
+Mutaha_TC_v2:Middle Eastern Alliance:2
+Mutaha_TC_v2:美国陆军:1
+Mutaha_TC_v2:中东联军:2
+Narva_AAS_v1:United States Army:1
+Narva_AAS_v1:Russian Ground Forces:2
+Narva_AAS_v1:美国陆军:1
+Narva_AAS_v1:俄罗斯陆军:2
+Narva_AAS_v2:British Armed Forces:1
+Narva_AAS_v2:Russian Ground Forces:2
+Narva_AAS_v2:英国陆军:1
+Narva_AAS_v2:俄罗斯陆军:2
+Narva_AAS_v3:United States Army:1
+Narva_AAS_v3:Russian Ground Forces:2
+Narva_AAS_v3:美国陆军:1
+Narva_AAS_v3:俄罗斯陆军:2
+Narva_AAS_v4:United States Marine Corps:1
+Narva_AAS_v4:Russian Ground Forces:2
+Narva_AAS_v4:美国海军陆战队:1
+Narva_AAS_v4:俄罗斯陆军:2
+Narva_Destruction_v1:United States Army:1
+Narva_Destruction_v1:Russian Ground Forces:2
+Narva_Destruction_v1:美国陆军:1
+Narva_Destruction_v1:俄罗斯陆军:2
+Narva_Invasion_v1:United States Army:1
+Narva_Invasion_v1:Russian Airborne Forces:2
+Narva_Invasion_v1:美国陆军:1
+Narva_Invasion_v1:俄罗斯空降军:2
+Narva_Invasion_v2:British Armed Forces:1
+Narva_Invasion_v2:Russian Ground Forces:2
+Narva_Invasion_v2:英国陆军:1
+Narva_Invasion_v2:俄罗斯陆军:2
+Narva_Invasion_v3:United States Army:1
+Narva_Invasion_v3:Russian Ground Forces:2
+Narva_Invasion_v3:美国陆军:1
+Narva_Invasion_v3:俄罗斯陆军:2
+Narva_Invasion_v4:Canadian Armed Forces:1
+Narva_Invasion_v4:Irregular Militia Forces:2
+Narva_Invasion_v4:加拿大军队:1
+Narva_Invasion_v4:非正规民兵:2
+Narva_Invasion_v5:United States Marine Corps:1
+Narva_Invasion_v5:Russian Ground Forces:2
+Narva_Invasion_v5:美国海军陆战队:1
+Narva_Invasion_v5:俄罗斯陆军:2
+Narva_RAAS_v1:United States Army:1
+Narva_RAAS_v1:Russian Ground Forces:2
+Narva_RAAS_v1:美国陆军:1
+Narva_RAAS_v1:俄罗斯陆军:2
+Narva_RAAS_v2:United States Marine Corps:1
+Narva_RAAS_v2:Russian Airborne Forces:2
+Narva_RAAS_v2:美国海军陆战队:1
+Narva_RAAS_v2:俄罗斯空降军:2
+Narva_RAAS_v3:Canadian Armed Forces:1
+Narva_RAAS_v3:Irregular Militia Forces:2
+Narva_RAAS_v3:加拿大军队:1
+Narva_RAAS_v3:非正规民兵:2
+Narva_RAAS_v4:Canadian Armed Forces:1
+Narva_RAAS_v4:Russian Ground Forces:2
+Narva_RAAS_v4:加拿大军队:1
+Narva_RAAS_v4:俄罗斯陆军:2
+Narva_RAAS_v5:United States Marine Corps:1
+Narva_RAAS_v5:Russian Ground Forces:2
+Narva_RAAS_v5:美国海军陆战队:1
+Narva_RAAS_v5:俄罗斯陆军:2
+Narva_RAAS_v6:British Armed Forces:1
+Narva_RAAS_v6:People's Liberation Army:2
+Narva_RAAS_v6:英国陆军:1
+Narva_RAAS_v6:中国人民解放军:2
+Narva_RAAS_v7:United States Army:1
+Narva_RAAS_v7:Russian Ground Forces:2
+Narva_RAAS_v7:美国陆军:1
+Narva_RAAS_v7:俄罗斯陆军:2
+Narva_Skirmish_v1:United States Army:1
+Narva_Skirmish_v1:Russian Ground Forces:2
+Narva_Skirmish_v1:美国陆军:1
+Narva_Skirmish_v1:俄罗斯陆军:2
+Narva_TA_v1:Russian Ground Forces:1
+Narva_TA_v1:Russian Ground Forces:2
+Narva_TA_v1:俄罗斯陆军:1
+Narva_TA_v1:俄罗斯陆军:2
+Narva_TC_v1:United States Army:1
+Narva_TC_v1:Russian Ground Forces:2
+Narva_TC_v1:美国陆军:1
+Narva_TC_v1:俄罗斯陆军:2
+Narva_TC_v2:United States Army:1
+Narva_TC_v2:Russian Ground Forces:2
+Narva_TC_v2:美国陆军:1
+Narva_TC_v2:俄罗斯陆军:2
+PacificProvingGrounds_AAS_v1:United States Marine Corps:1
+PacificProvingGrounds_AAS_v1:PLA Navy Marine Corps:2
+PacificProvingGrounds_AAS_v1:美国海军陆战队:1
+PacificProvingGrounds_AAS_v1:中国人民解放军海军陆战队:2
+PacificProvingGrounds_AAS_v2:Australian Defence Force:1
+PacificProvingGrounds_AAS_v2:People's Liberation Army:2
+PacificProvingGrounds_AAS_v2:澳大利亚国防军:1
+PacificProvingGrounds_AAS_v2:中国人民解放军:2
+PacificProvingGrounds_PLANMC-VDV:PLA Navy Marine Corps:1
+PacificProvingGrounds_PLANMC-VDV:中国人民解放军海军陆战队:1
+PacificProvingGrounds_Seed_v1:United States Marine Corps:1
+PacificProvingGrounds_Seed_v1:PLA Navy Marine Corps:2
+PacificProvingGrounds_Seed_v1:美国海军陆战队:1
+PacificProvingGrounds_Seed_v1:中国人民解放军海军陆战队:2
+PacificProvingGrounds_USMC-PLA:United States Marine Corps:1
+PacificProvingGrounds_USMC-PLA:美国海军陆战队:1
+PacificProvingGrounds_USMC-RGF:United States Marine Corps:1
+PacificProvingGrounds_USMC-RGF:美国海军陆战队:1
+Skorpo_AAS_v1:United States Army:1
+Skorpo_AAS_v1:Russian Ground Forces:2
+Skorpo_AAS_v1:美国陆军:1
+Skorpo_AAS_v1:俄罗斯陆军:2
+Skorpo_Invasion_v1:United States Army:1
+Skorpo_Invasion_v1:Irregular Militia Forces:2
+Skorpo_Invasion_v1:美国陆军:1
+Skorpo_Invasion_v1:非正规民兵:2
+Skorpo_Invasion_v2:Russian Airborne Forces:1
+Skorpo_Invasion_v2:Irregular Militia Forces:2
+Skorpo_Invasion_v2:俄罗斯空降军:1
+Skorpo_Invasion_v2:非正规民兵:2
+Skorpo_Invasion_v3:United States Marine Corps:1
+Skorpo_Invasion_v3:Russian Ground Forces:2
+Skorpo_Invasion_v3:美国海军陆战队:1
+Skorpo_Invasion_v3:俄罗斯陆军:2
+Skorpo_Invasion_v4:Russian Ground Forces:1
+Skorpo_Invasion_v4:Irregular Militia Forces:2
+Skorpo_Invasion_v4:俄罗斯陆军:1
+Skorpo_Invasion_v4:非正规民兵:2
+Skorpo_RAAS_v1:United States Army:1
+Skorpo_RAAS_v1:Russian Ground Forces:2
+Skorpo_RAAS_v1:美国陆军:1
+Skorpo_RAAS_v1:俄罗斯陆军:2
+Skorpo_RAAS_v2:British Armed Forces:1
+Skorpo_RAAS_v2:Russian Ground Forces:2
+Skorpo_RAAS_v2:英国陆军:1
+Skorpo_RAAS_v2:俄罗斯陆军:2
+Skorpo_RAAS_v3:United States Army:1
+Skorpo_RAAS_v3:Irregular Militia Forces:2
+Skorpo_RAAS_v3:美国陆军:1
+Skorpo_RAAS_v3:非正规民兵:2
+Skorpo_RAAS_v4:United States Marine Corps:1
+Skorpo_RAAS_v4:People's Liberation Army:2
+Skorpo_RAAS_v4:美国海军陆战队:1
+Skorpo_RAAS_v4:中国人民解放军:2
+Skorpo_RAAS_v5:Canadian Armed Forces:1
+Skorpo_RAAS_v5:Russian Airborne Forces:2
+Skorpo_RAAS_v5:加拿大军队:1
+Skorpo_RAAS_v5:俄罗斯空降军:2
+Skorpo_Skirmish_v1:United States Army:1
+Skorpo_Skirmish_v1:Russian Ground Forces:2
+Skorpo_Skirmish_v1:美国陆军:1
+Skorpo_Skirmish_v1:俄罗斯陆军:2
+Skorpo_TC_v1:United States Army:1
+Skorpo_TC_v1:Russian Ground Forces:2
+Skorpo_TC_v1:美国陆军:1
+Skorpo_TC_v1:俄罗斯陆军:2
+Skorpo_TC_v2:United States Army:1
+Skorpo_TC_v2:Russian Ground Forces:2
+Skorpo_TC_v2:美国陆军:1
+Skorpo_TC_v2:俄罗斯陆军:2
+Skorpo_TC_v3:United States Army:1
+Skorpo_TC_v3:Russian Ground Forces:2
+Skorpo_TC_v3:美国陆军:1
+Skorpo_TC_v3:俄罗斯陆军:2
+Sumari_AAS_v1:British Armed Forces:1
+Sumari_AAS_v1:Middle Eastern Alliance:2
+Sumari_AAS_v1:英国陆军:1
+Sumari_AAS_v1:中东联军:2
+Sumari_AAS_v2:United States Army:1
+Sumari_AAS_v2:Russian Ground Forces:2
+Sumari_AAS_v2:美国陆军:1
+Sumari_AAS_v2:俄罗斯陆军:2
+Sumari_AAS_v3:Australian Defence Force:1
+Sumari_AAS_v3:Russian Ground Forces:2
+Sumari_AAS_v3:澳大利亚国防军:1
+Sumari_AAS_v3:俄罗斯陆军:2
+Sumari_AAS_v4:Canadian Armed Forces:1
+Sumari_AAS_v4:Middle Eastern Alliance:2
+Sumari_AAS_v4:加拿大军队:1
+Sumari_AAS_v4:中东联军:2
+Sumari_AAS_v5:United States Marine Corps:1
+Sumari_AAS_v5:Middle Eastern Alliance:2
+Sumari_AAS_v5:美国海军陆战队:1
+Sumari_AAS_v5:中东联军:2
+Sumari_Insurgency_v1:United States Army:1
+Sumari_Insurgency_v1:Insurgent Forces:2
+Sumari_Insurgency_v1:美国陆军:1
+Sumari_Insurgency_v1:叛乱军队:2
+Sumari_Invasion_v1:United States Army:1
+Sumari_Invasion_v1:Insurgent Forces:2
+Sumari_Invasion_v1:美国陆军:1
+Sumari_Invasion_v1:叛乱军队:2
+Sumari_RAAS_v1:United States Army:1
+Sumari_RAAS_v1:Middle Eastern Alliance:2
+Sumari_RAAS_v1:美国陆军:1
+Sumari_RAAS_v1:中东联军:2
+Sumari_RAAS_v2:British Armed Forces:1
+Sumari_RAAS_v2:Middle Eastern Alliance:2
+Sumari_RAAS_v2:英国陆军:1
+Sumari_RAAS_v2:中东联军:2
+Sumari_Seed_v1:United States Army:1
+Sumari_Seed_v1:Russian Ground Forces:2
+Sumari_Seed_v1:美国陆军:1
+Sumari_Seed_v1:俄罗斯陆军:2
+Sumari_Seed_v2:Australian Defence Force:1
+Sumari_Seed_v2:Insurgent Forces:2
+Sumari_Seed_v2:澳大利亚国防军:1
+Sumari_Seed_v2:叛乱军队:2
+Sumari_Seed_v3:United States Army:1
+Sumari_Seed_v3:People's Liberation Army:2
+Sumari_Seed_v3:美国陆军:1
+Sumari_Seed_v3:中国人民解放军:2
+Sumari_Skirmish_v1:United States Army:1
+Sumari_Skirmish_v1:People's Liberation Army:2
+Sumari_Skirmish_v1:美国陆军:1
+Sumari_Skirmish_v1:中国人民解放军:2
+Sumari_TC_v1:United States Army:1
+Sumari_TC_v1:Middle Eastern Alliance:2
+Sumari_TC_v1:美国陆军:1
+Sumari_TC_v1:中东联军:2
+Tallil_AAS_v1:United States Army:1
+Tallil_AAS_v1:Russian Ground Forces:2
+Tallil_AAS_v1:美国陆军:1
+Tallil_AAS_v1:俄罗斯陆军:2
+Tallil_AAS_v2:United States Army:1
+Tallil_AAS_v2:Middle Eastern Alliance:2
+Tallil_AAS_v2:美国陆军:1
+Tallil_AAS_v2:中东联军:2
+Tallil_Invasion_v1:United States Army:1
+Tallil_Invasion_v1:Russian Ground Forces:2
+Tallil_Invasion_v1:美国陆军:1
+Tallil_Invasion_v1:俄罗斯陆军:2
+Tallil_Invasion_v2:Russian Ground Forces:1
+Tallil_Invasion_v2:Insurgent Forces:2
+Tallil_Invasion_v2:俄罗斯陆军:1
+Tallil_Invasion_v2:叛乱军队:2
+Tallil_Invasion_v3:United States Army:1
+Tallil_Invasion_v3:Insurgent Forces:2
+Tallil_Invasion_v3:美国陆军:1
+Tallil_Invasion_v3:叛乱军队:2
+Tallil_Invasion_v4:Australian Defence Force:1
+Tallil_Invasion_v4:Insurgent Forces:2
+Tallil_Invasion_v4:澳大利亚国防军:1
+Tallil_Invasion_v4:叛乱军队:2
+Tallil_Invasion_v5:Middle Eastern Alliance:1
+Tallil_Invasion_v5:People's Liberation Army:2
+Tallil_Invasion_v5:中东联军:1
+Tallil_Invasion_v5:中国人民解放军:2
+Tallil_RAAS_v1:United States Marine Corps:1
+Tallil_RAAS_v1:Middle Eastern Alliance:2
+Tallil_RAAS_v1:美国海军陆战队:1
+Tallil_RAAS_v1:中东联军:2
+Tallil_RAAS_v2:United States Army:1
+Tallil_RAAS_v2:Middle Eastern Alliance:2
+Tallil_RAAS_v2:美国陆军:1
+Tallil_RAAS_v2:中东联军:2
+Tallil_RAAS_v3:United States Army:1
+Tallil_RAAS_v3:Russian Ground Forces:2
+Tallil_RAAS_v3:美国陆军:1
+Tallil_RAAS_v3:俄罗斯陆军:2
+Tallil_RAAS_v4:British Armed Forces:1
+Tallil_RAAS_v4:Russian Ground Forces:2
+Tallil_RAAS_v4:英国陆军:1
+Tallil_RAAS_v4:俄罗斯陆军:2
+Tallil_RAAS_v5:Australian Defence Force:1
+Tallil_RAAS_v5:Russian Ground Forces:2
+Tallil_RAAS_v5:澳大利亚国防军:1
+Tallil_RAAS_v5:俄罗斯陆军:2
+Tallil_RAAS_v6:Canadian Armed Forces:1
+Tallil_RAAS_v6:Russian Ground Forces:2
+Tallil_RAAS_v6:加拿大军队:1
+Tallil_RAAS_v6:俄罗斯陆军:2
+Tallil_RAAS_v7:Canadian Armed Forces:1
+Tallil_RAAS_v7:Middle Eastern Alliance:2
+Tallil_RAAS_v7:加拿大军队:1
+Tallil_RAAS_v7:中东联军:2
+Tallil_RAAS_v8:British Armed Forces:1
+Tallil_RAAS_v8:People's Liberation Army:2
+Tallil_RAAS_v8:英国陆军:1
+Tallil_RAAS_v8:中国人民解放军:2
+Tallil_Seed_v1:United States Marine Corps:1
+Tallil_Seed_v1:Insurgent Forces:2
+Tallil_Seed_v1:美国海军陆战队:1
+Tallil_Seed_v1:叛乱军队:2
+Tallil_Seed_v2:Canadian Armed Forces:1
+Tallil_Seed_v2:Russian Airborne Forces:2
+Tallil_Seed_v2:加拿大军队:1
+Tallil_Seed_v2:俄罗斯空降军:2
+Tallil_Skirmish_v1:United States Army:1
+Tallil_Skirmish_v1:Russian Ground Forces:2
+Tallil_Skirmish_v1:美国陆军:1
+Tallil_Skirmish_v1:俄罗斯陆军:2
+Tallil_Skirmish_v2:United States Army:1
+Tallil_Skirmish_v2:Russian Ground Forces:2
+Tallil_Skirmish_v2:美国陆军:1
+Tallil_Skirmish_v2:俄罗斯陆军:2
+Tallil_Skirmish_v3:Irregular Militia Forces:1
+Tallil_Skirmish_v3:Insurgent Forces:2
+Tallil_Skirmish_v3:非正规民兵:1
+Tallil_Skirmish_v3:叛乱军队:2
+Tallil_TA_v1:United States Army:1
+Tallil_TA_v1:United States Army:2
+Tallil_TA_v1:美国陆军:1
+Tallil_TA_v1:美国陆军:2
+Tallil_Tanks_v1:United States Army:1
+Tallil_Tanks_v1:Middle Eastern Alliance:2
+Tallil_Tanks_v1:美国陆军:1
+Tallil_Tanks_v1:中东联军:2
+Tallil_Tanks_v2:United States Army:1
+Tallil_Tanks_v2:Russian Ground Forces:2
+Tallil_Tanks_v2:美国陆军:1
+Tallil_Tanks_v2:俄罗斯陆军:2
+Tallil_TC_v1:United States Army:1
+Tallil_TC_v1:Russian Ground Forces:2
+Tallil_TC_v1:美国陆军:1
+Tallil_TC_v1:俄罗斯陆军:2
+Tutorial_Helicopter:United States Army:1
+Tutorial_Helicopter:美国陆军:1
+Tutorial_Infantry:United States Army:1
+Tutorial_Infantry:美国陆军:1
+Yehorivka_AAS_v1:British Armed Forces:1
+Yehorivka_AAS_v1:Russian Ground Forces:2
+Yehorivka_AAS_v1:英国陆军:1
+Yehorivka_AAS_v1:俄罗斯陆军:2
+Yehorivka_AAS_v2:United States Army:1
+Yehorivka_AAS_v2:Russian Ground Forces:2
+Yehorivka_AAS_v2:美国陆军:1
+Yehorivka_AAS_v2:俄罗斯陆军:2
+Yehorivka_AAS_v3:Australian Defence Force:1
+Yehorivka_AAS_v3:Russian Ground Forces:2
+Yehorivka_AAS_v3:澳大利亚国防军:1
+Yehorivka_AAS_v3:俄罗斯陆军:2
+Yehorivka_AAS_v4:United States Marine Corps:1
+Yehorivka_AAS_v4:Russian Ground Forces:2
+Yehorivka_AAS_v4:美国海军陆战队:1
+Yehorivka_AAS_v4:俄罗斯陆军:2
+Yehorivka_Destruction_v1:United States Army:1
+Yehorivka_Destruction_v1:Russian Ground Forces:2
+Yehorivka_Destruction_v1:美国陆军:1
+Yehorivka_Destruction_v1:俄罗斯陆军:2
+Yehorivka_Invasion_v1:British Armed Forces:1
+Yehorivka_Invasion_v1:Irregular Militia Forces:2
+Yehorivka_Invasion_v1:英国陆军:1
+Yehorivka_Invasion_v1:非正规民兵:2
+Yehorivka_Invasion_v2:United States Army:1
+Yehorivka_Invasion_v2:Russian Ground Forces:2
+Yehorivka_Invasion_v2:美国陆军:1
+Yehorivka_Invasion_v2:俄罗斯陆军:2
+Yehorivka_Invasion_v3:Canadian Armed Forces:1
+Yehorivka_Invasion_v3:Irregular Militia Forces:2
+Yehorivka_Invasion_v3:加拿大军队:1
+Yehorivka_Invasion_v3:非正规民兵:2
+Yehorivka_Invasion_v4:Russian Airborne Forces:1
+Yehorivka_Invasion_v4:Irregular Militia Forces:2
+Yehorivka_Invasion_v4:俄罗斯空降军:1
+Yehorivka_Invasion_v4:非正规民兵:2
+Yehorivka_RAAS_v01:United States Marine Corps:1
+Yehorivka_RAAS_v01:People's Liberation Army:2
+Yehorivka_RAAS_v01:美国海军陆战队:1
+Yehorivka_RAAS_v01:中国人民解放军:2
+Yehorivka_RAAS_v02:United States Army:1
+Yehorivka_RAAS_v02:Russian Airborne Forces:2
+Yehorivka_RAAS_v02:美国陆军:1
+Yehorivka_RAAS_v02:俄罗斯空降军:2
+Yehorivka_RAAS_v03:British Armed Forces:1
+Yehorivka_RAAS_v03:Russian Ground Forces:2
+Yehorivka_RAAS_v03:英国陆军:1
+Yehorivka_RAAS_v03:俄罗斯陆军:2
+Yehorivka_RAAS_v04:United States Army:1
+Yehorivka_RAAS_v04:Russian Ground Forces:2
+Yehorivka_RAAS_v04:美国陆军:1
+Yehorivka_RAAS_v04:俄罗斯陆军:2
+Yehorivka_RAAS_v05:United States Army:1
+Yehorivka_RAAS_v05:People's Liberation Army:2
+Yehorivka_RAAS_v05:美国陆军:1
+Yehorivka_RAAS_v05:中国人民解放军:2
+Yehorivka_RAAS_v06:United States Army:1
+Yehorivka_RAAS_v06:Russian Ground Forces:2
+Yehorivka_RAAS_v06:美国陆军:1
+Yehorivka_RAAS_v06:俄罗斯陆军:2
+Yehorivka_RAAS_v07:British Armed Forces:1
+Yehorivka_RAAS_v07:Russian Ground Forces:2
+Yehorivka_RAAS_v07:英国陆军:1
+Yehorivka_RAAS_v07:俄罗斯陆军:2
+Yehorivka_RAAS_v08:Australian Defence Force:1
+Yehorivka_RAAS_v08:Russian Ground Forces:2
+Yehorivka_RAAS_v08:澳大利亚国防军:1
+Yehorivka_RAAS_v08:俄罗斯陆军:2
+Yehorivka_RAAS_v09:Canadian Armed Forces:1
+Yehorivka_RAAS_v09:Irregular Militia Forces:2
+Yehorivka_RAAS_v09:加拿大军队:1
+Yehorivka_RAAS_v09:非正规民兵:2
+Yehorivka_RAAS_v10:British Armed Forces:1
+Yehorivka_RAAS_v10:Russian Airborne Forces:2
+Yehorivka_RAAS_v10:英国陆军:1
+Yehorivka_RAAS_v10:俄罗斯空降军:2
+Yehorivka_RAAS_v11:Canadian Armed Forces:1
+Yehorivka_RAAS_v11:Russian Airborne Forces:2
+Yehorivka_RAAS_v11:加拿大军队:1
+Yehorivka_RAAS_v11:俄罗斯空降军:2
+Yehorivka_RAAS_v12:Canadian Armed Forces:1
+Yehorivka_RAAS_v12:Russian Ground Forces:2
+Yehorivka_RAAS_v12:加拿大军队:1
+Yehorivka_RAAS_v12:俄罗斯陆军:2
+Yehorivka_RAAS_v13:United States Army:1
+Yehorivka_RAAS_v13:People's Liberation Army:2
+Yehorivka_RAAS_v13:美国陆军:1
+Yehorivka_RAAS_v13:中国人民解放军:2
+Yehorivka_RAAS_v14:People's Liberation Army:1
+Yehorivka_RAAS_v14:Irregular Militia Forces:2
+Yehorivka_RAAS_v14:中国人民解放军:1
+Yehorivka_RAAS_v14:非正规民兵:2
+Yehorivka_Skirmish_v1:United States Army:1
+Yehorivka_Skirmish_v1:Russian Ground Forces:2
+Yehorivka_Skirmish_v1:美国陆军:1
+Yehorivka_Skirmish_v1:俄罗斯陆军:2
+Yehorivka_Skirmish_v2:British Armed Forces:1
+Yehorivka_Skirmish_v2:Russian Ground Forces:2
+Yehorivka_Skirmish_v2:英国陆军:1
+Yehorivka_Skirmish_v2:俄罗斯陆军:2
+Yehorivka_Skirmish_v3:United States Army:1
+Yehorivka_Skirmish_v3:Russian Ground Forces:2
+Yehorivka_Skirmish_v3:美国陆军:1
+Yehorivka_Skirmish_v3:俄罗斯陆军:2
+Yehorivka_TA_v1:Russian Ground Forces:1
+Yehorivka_TA_v1:Russian Ground Forces:2
+Yehorivka_TA_v1:俄罗斯陆军:1
+Yehorivka_TA_v1:俄罗斯陆军:2
+Yehorivka_TC_v1:United States Army:1
+Yehorivka_TC_v1:Russian Ground Forces:2
+Yehorivka_TC_v1:美国陆军:1
+Yehorivka_TC_v1:俄罗斯陆军:2
+Yehorivka_TC_v2:United States Army:1
+Yehorivka_TC_v2:Russian Ground Forces:2
+Yehorivka_TC_v2:美国陆军:1
+Yehorivka_TC_v2:俄罗斯陆军:2
+Yehorivka_TC_v3:Canadian Armed Forces:1
+Yehorivka_TC_v3:Russian Ground Forces:2
+Yehorivka_TC_v3:加拿大军队:1
+Yehorivka_TC_v3:俄罗斯陆军:2

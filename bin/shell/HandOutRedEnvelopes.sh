@@ -1,6 +1,8 @@
 #!/bin/bash
 #HandOutRedEnvelopes.sh
 #发红包功能
+#设置语言环境
+export LANG=en_US.UTF-8
 #传入："${player_name}%%${player_steamID}%%${msg_body}%%${ServerID}"
 player_name=$(echo $1|awk -F '%%' '{print $1}')
 player_steamID=$(echo $1|awk -F '%%' '{print $2}')
@@ -49,12 +51,13 @@ fi
 #判断需要积分的总额度
 Total=`expr $NUM \* $INT`
 #当前账户内的积分数额
-CurrentBalance=$(cat $PointsUserInfo | grep $player_steamID | awk -F \: '{print $2}' | tail -1)
+CurrentBalance=$($mysql_cmd "SELECT current_balance FROM transactions WHERE steamid='$player_steamID' AND organization_tag='$db_tag' ORDER BY transaction_time DESC LIMIT 1;")
 
 #积分兑换，且自动扣款
-if [ $CurrentBalance -ge $Total ];then
-	${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$player_steamID" "$Total" "4"
-	echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:使用发红包消耗${Total}${PointsName}" >> $UserOperateLog/$player_steamID
+if [ $(echo "$CurrentBalance >= $Total" | bc) -eq 1 ]; then
+	#${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$player_steamID" "$Total" "4"
+	#echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:使用发红包消耗${Total}${PointsName}" >> $UserOperateLog/$player_steamID
+	${WBHKHOME}/bin/shell/additional/transaction_manager.sh "$player_steamID" "del" "${Total}" "通过发红包消耗"
 	#计算预留位时间戳
 	ReservedSec=`expr $INT \* $PointsToReserved`
 	#标记积分兑换预留位开始处理

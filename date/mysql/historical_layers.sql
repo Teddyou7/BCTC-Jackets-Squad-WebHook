@@ -1,0 +1,5 @@
+CREATE TABLE historical_layers (
+    id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'ID',
+    map_name VARCHAR(255) NOT NULL COMMENT '地图名称',
+    timestamp DATETIME(3) DEFAULT CURRENT_TIMESTAMP(3) COMMENT '记录时间'
+) COMMENT='历史图层表';

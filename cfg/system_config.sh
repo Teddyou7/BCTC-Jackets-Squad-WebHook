@@ -13,7 +13,7 @@ PHPFPMPort=9740
 NginxStartPort=38088
 
 #游戏日志路径
-SquadGameLog="/SquadGame/Saved/Logs/SquadGame.log"
+SquadGameLog="/SquadRemoteLog/PutLog/bctc.log"
 
 #设置steam资料请求方式，由冲锋号社区代理APIKey=1，本地请求=0，设置为0请确保您的密钥正确，否则将无法正常拉取数据。
 #冲锋号社区代理目前免费使用。  http://api.bctc-squad.cn:8088/api/SteamDuration.sh?
@@ -32,6 +32,11 @@ PlayerListSnapshots_AdminsList=$Admins_User_A
 
 #随机打乱所需要的权限等级
 ConfirmRandomShuffling_AdminsList=$Admins_User_S
+
+#正式OP权限等级
+#Admins_User_B
+#实习OP权限等级
+#Admins_User_C
 
 ########## 其他 ##########
 

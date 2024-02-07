@@ -14,7 +14,6 @@ DATE=`date +'%H%M%S.%N'`
 ListPlayer="${WBHKHOME}/date/tmp/RconQueryCache/GrantReservedWelfare.$DATE"
 ${WBHKHOME}/bin/shell/additional/RconQueryCache.sh ListPlayers $ListPlayer $ServerID
 
-#!/bin/bash
 # 从之前留存玩家列表中的玩家发放福利
 #PreviousReservedWelfare.sh
 #管理员请求格式：发福利 [阵营ID] [小队ID] [预留位小时数]
@@ -73,12 +72,16 @@ fi
 #判断需要积分的总额度
 Total=`expr $PLAYERSUM \* $Hour`
 #当前账户内的积分数额
-CurrentBalance=$(cat $PointsUserInfo | grep $player_steamID | awk -F \: '{print $2}' | tail -1)
+#CurrentBalance=$(cat $PointsUserInfo | grep $player_steamID | awk -F \: '{print $2}' | tail -1)
+CurrentBalance=$($mysql_cmd "SELECT current_balance FROM transactions WHERE steamid='$player_steamID' AND organization_tag='$db_tag' ORDER BY transaction_time DESC LIMIT 1;")
 
-#积分兑换，且自动扣款
-if [ $CurrentBalance -ge $Total ];then
-	${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$player_steamID" "$Total" "4"
-	echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:使用发福利消耗${Total}积分" >> $UserOperateLog/$player_steamID
+#积分兑换，且自动扣款if [ $(echo "$CurrentBalance >= $SpeakerPoints" | bc) -eq 1 ]; then
+
+if [ $(echo "$CurrentBalance >= $Total" | bc) -eq 1 ]; then	
+	#${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$player_steamID" "$Total" "4"
+	#echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:使用发福利消耗${Total}积分" >> $UserOperateLog/$player_steamID
+	CurrentBalanceNew=$(${WBHKHOME}/bin/shell/additional/transaction_manager.sh "$player_steamID" "del" "${Total}" "通过发福利消耗")
+	
 	#计算预留位时间戳
 	ReservedSec=`expr $Hour \* $PointsToReserved`
 else
@@ -106,9 +109,9 @@ while true
 do
 	${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "${PLAYER[$COUNTER]}" "$ReservedSec" "2"
 	echo "`date +"%Y/%m/%d %H.%M.%S"`:`date +%s`:通过发福利获取${ReservedSec}预留位" >> $UserOperateLog/${PLAYER[$COUNTER]}
-	PlayerID_User=$(${WBHKHOME}/bin/shell/additional/PlayerGameID.sh ${PLAYER[$COUNTER]})
+	#PlayerID_User=$(${WBHKHOME}/bin/shell/additional/PlayerGameID.sh ${PLAYER[$COUNTER]})
 	AccountBalance=`cat $ReservedUserInfo |grep ${PLAYER[$COUNTER]} |awk -F \: '{print $2}'`
-	$CMDSH AdminWarnById $PlayerID_User “$player_name”已为您充值预留位${days}${unit}，到期时间：`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
+	$CMDSH AdminWarn ${PLAYER[$COUNTER]} “$player_name”已为您充值预留位${days}${unit}，到期时间：`date -d @${AccountBalance} +"%Y/%m/%d %H:%M"`
 	sleep 1
 	COUNTER=$((COUNTER+1))
 	if [ $COUNTER -eq $PLAYERSUM ];then
@@ -118,5 +121,5 @@ do
 	fi
 done
 
-CurrentBalanceNew=$(cat $PointsUserInfo | grep $player_steamID | awk -F \: '{print $2}' | tail -1)
+#CurrentBalanceNew=$(cat $PointsUserInfo | grep $player_steamID | awk -F \: '{print $2}' | tail -1)
 $CMDSH AdminWarnById $PlayerID 福利发放完毕，已扣款${Total}${PointsName}，当前余额：$CurrentBalanceNew

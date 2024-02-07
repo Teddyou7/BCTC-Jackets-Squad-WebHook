@@ -26,34 +26,30 @@ ServerID=`echo $1|awk -F '%%' '{print $5}'`
 
 source $(echo $(cd `dirname $0`; pwd) | sed 's/bin\/shell//g')/cfg/config.sh
 
-TIME_FILE="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info"
-TIME_FILE_TMP="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info.tmp"
-TIME_FILE_SORT="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info.sort"
+#TIME_FILE="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info"
+#TIME_FILE_TMP="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info.tmp"
+#TIME_FILE_SORT="${WBHKHOME}/date/tmp/CreatSquadInfo/CreatSquad.info.sort"
 
 #删除多余的内容，保留固定行，加快处理速度
-tail -n 300 $TIME_FILE > $TIME_FILE_TMP
-mv $TIME_FILE_TMP $TIME_FILE
+#tail -n 300 $TIME_FILE > $TIME_FILE_TMP
+#mv $TIME_FILE_TMP $TIME_FILE
 
 # 使用awk提取时间戳并添加到每一行，然后使用sort进行排序，最后输出排序结果
-awk -F'%%' '{print $5, $0}' "$TIME_FILE" | \
-  awk '{sub(/\.[0-9]+$/, "", $1); print $0}' | \
-  sort -n -k1,1 | \
-  awk '{print substr($0, length($1) + 1)}' > $TIME_FILE_SORT
+#awk -F'%%' '{print $5, $0}' "$TIME_FILE" | \
+#  awk '{sub(/\.[0-9]+$/, "", $1); print $0}' | \
+#  sort -n -k1,1 | \
+#  awk '{print substr($0, length($1) + 1)}' > $TIME_FILE_SORT
   
 # 将 UTC 时间字符串转换为时间戳
-timestamp=$(date -d "$timestamp_tmp" +%s.%N)
-# 将时间戳转换为北京时间字符串，只保留小数点后3位；获取小队创建时间
-beijing_time=$(TZ='Asia/Shanghai' date -d "@$timestamp" +"%H:%M:%S.%N" | cut -c1-12)
+#timestamp=$(date -d "$timestamp_tmp" +%s.%N)
+## 将时间戳转换为北京时间字符串，只保留小数点后3位；获取小队创建时间
+#beijing_time=$(TZ='Asia/Shanghai' date -d "@$timestamp" +"%H:%M:%S.%N" | cut -c1-12)
 
-
-# 处理参数
 SquadTime() {
-        beijing_time_tmp1=`grep "^ ${1}s${player_teamID}t" $TIME_FILE_SORT | tail -1 | awk -F '%%' '{print $5}'`
-        beijing_time_tmp2=$(TZ='Asia/Shanghai' date -d "@${beijing_time_tmp1}" +"%H:%M:%S.%N" | cut -c1-12)
-        echo $beijing_time_tmp2
+        $mysql_cmd "SELECT CONCAT(TIME_FORMAT(creation_time, '%H:%i:%s.'), SUBSTRING(DATE_FORMAT(creation_time, '%f'), 1, 3)) AS formatted_time FROM ${db_server}squad_creation_info WHERE team_id = '$player_teamID' AND squad_id = '$1' ORDER BY creation_time DESC LIMIT 1;"
 }
 SquadName() {
-        grep "^ ${1}s${player_teamID}t" $TIME_FILE_SORT | tail -1 | awk -F '%%' '{print $4}'
+        $mysql_cmd "SELECT squad_name FROM ${db_server}squad_creation_info WHERE team_id = '$player_teamID' AND squad_id = '$1' ORDER BY creation_time DESC LIMIT 1;"
 }
 
 #1?

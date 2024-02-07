@@ -1,7 +1,8 @@
 #!/bin/bash
 # 积分增加和预留位续费集中接口
 # UserQuotaAllocation.sh
-# 传入参数 $1 steamid $2 变动的时间戳或积分数额 $3 增加模式{1=增加积分}{2=增加预留位时间戳}{3=增加签到特权时间戳}{4=减少的积分数额}
+# 传入参数 $1 steamid $2 变动的时间戳或积分数额 $3 增加模式{2=增加预留位时间戳}{3=增加签到特权时间戳}
+#${WBHKHOME}/bin/shell/additional/UserQuotaAllocation.sh "$steamID" "$Value" "$ActivationMode"
 
 steamid=$1
 quota=$2
